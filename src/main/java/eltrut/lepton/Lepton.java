@@ -12,10 +12,13 @@ import org.apache.logging.log4j.Logger;
 public class Lepton
 {
     private static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "lepton";
+    public static Lepton instance;
 
     public Lepton() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+        instance = this;
 
         MinecraftForge.EVENT_BUS.register(this);
     }
