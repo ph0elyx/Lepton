@@ -1,0 +1,9 @@
+{
+    "parent": "lepton:block/new_inner_stairs",
+    "textures": {
+        "bottom": "minecraft:block/sandstone_bottom",
+        "top": "minecraft:block/sandstone_top",
+        "side": "minecraft:block/cut_sandstone",
+		"side2": "minecraft:block/sandstone_top"
+    }
+}
