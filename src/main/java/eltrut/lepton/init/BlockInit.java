@@ -34,6 +34,7 @@ public class BlockInit {
 	public static final RegistryObject<Block> STRIPPED_SPRUCE_WOOD_SLAB = Registry.slab(HELPER, Blocks.STRIPPED_SPRUCE_WOOD, "stripped_spruce_wood_slab");
 	
 	public static final RegistryObject<Block> CRACKED_STONE_BRICK_SLAB = Registry.slab(HELPER, Blocks.CRACKED_STONE_BRICKS, "cracked_stone_brick_slab");
+	public static final RegistryObject<Block> QUARTZ_BRICK_SLAB = Registry.slab(HELPER, Blocks.field_235395_nI_, "quartz_brick_slab"); // field_235395_nI_ is Quartz Bricks until that gets mapped
 	
 	// Stairs
 	public static final RegistryObject<Block> ACACIA_WOOD_STAIRS = Registry.stairs(HELPER, Blocks.ACACIA_WOOD, "acacia_wood_stairs");
@@ -54,6 +55,7 @@ public class BlockInit {
 	public static final RegistryObject<Block> CUT_SANDSTONE_STAIRS = Registry.stairs(HELPER, Blocks.CUT_SANDSTONE, "cut_sandstone_stairs");
 	public static final RegistryObject<Block> CUT_RED_SANDSTONE_STAIRS = Registry.stairs(HELPER, Blocks.CUT_RED_SANDSTONE, "cut_red_sandstone_stairs");
 	public static final RegistryObject<Block> CRACKED_STONE_BRICK_STAIRS = Registry.stairs(HELPER, Blocks.CRACKED_STONE_BRICKS, "cracked_stone_brick_stairs");
+	public static final RegistryObject<Block> QUARTZ_BRICK_STAIRS = Registry.stairs(HELPER, Blocks.field_235395_nI_, "quartz_brick_stairs");
 	
 	// Walls
 	public static final RegistryObject<Block> ACACIA_WOOD_WALL = Registry.wall(HELPER, Blocks.ACACIA_WOOD, "acacia_wood_wall");
@@ -72,7 +74,7 @@ public class BlockInit {
 	
 	public static final RegistryObject<Block> PURPUR_WALL = Registry.wall(HELPER, Blocks.PURPUR_BLOCK, "purpur_wall");
 	public static final RegistryObject<Block> QUARTZ_WALL = Registry.wall(HELPER, Blocks.QUARTZ_BLOCK, "quartz_wall");
-	public static final RegistryObject<Block> SMOOTH_QUARTZ_WALL = Registry.wall(HELPER, Blocks.SMOOTH_QUARTZ, "smooth_quartz_wall");
+	public static final RegistryObject<Block> SMOOTH_QUARTZ_WALL = Registry.wall(HELPER, Blocks.SMOOTH_QUARTZ, "smooth_quartz_wall"); // Will be changed to Blocks.SMOOTH_QUARTZ_BLOCK in a future mapping
 	public static final RegistryObject<Block> POLISHED_ANDESITE_WALL = Registry.wall(HELPER, Blocks.POLISHED_ANDESITE, "polished_andesite_wall");
 	public static final RegistryObject<Block> POLISHED_DIORITE_WALL = Registry.wall(HELPER, Blocks.POLISHED_DIORITE, "polished_diorite_wall");
 	public static final RegistryObject<Block> POLISHED_GRANITE_WALL = Registry.wall(HELPER, Blocks.POLISHED_GRANITE, "polished_granite_wall");
@@ -85,4 +87,5 @@ public class BlockInit {
 	public static final RegistryObject<Block> SMOOTH_SANDSTONE_WALL = Registry.wall(HELPER, Blocks.SMOOTH_SANDSTONE, "smooth_sandstone_wall");
 	public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_WALL = Registry.wall(HELPER, Blocks.SMOOTH_RED_SANDSTONE, "smooth_red_sandstone_wall");
 	public static final RegistryObject<Block> CRACKED_STONE_BRICK_WALL = Registry.wall(HELPER, Blocks.CRACKED_STONE_BRICKS, "cracked_stone_brick_wall");
+	public static final RegistryObject<Block> QUARTZ_BRICK_WALL = Registry.wall(HELPER, Blocks.field_235395_nI_, "quartz_brick_wall");
 }

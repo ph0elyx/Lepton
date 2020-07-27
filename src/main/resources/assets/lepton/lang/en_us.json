@@ -16,6 +16,7 @@
 	"block.lepton.stripped_spruce_wood_slab": "Stripped Spruce Wood Slab",
 	
 	"block.lepton.cracked_stone_brick_slab": "Cracked Stone Brick Slab",
+	"block.lepton.quartz_brick_slab": "Quartz Brick Slab",
 	
 	"block.lepton.acacia_wood_stairs": "Acacia Wood Stairs",
 	"block.lepton.birch_wood_stairs": "Birch Wood Stairs",
@@ -34,6 +35,7 @@
 	"block.lepton.cut_sandstone_stairs": "Cut Sandstone Stairs",
 	"block.lepton.cut_red_sandstone_stairs": "Cut Red Sandstone Stairs",
 	"block.lepton.cracked_stone_brick_stairs": "Cracked Stone Brick Stairs",
+	"block.lepton.quartz_brick_stairs": "Quartz Brick Stairs",
 	
 	"block.lepton.acacia_wood_wall": "Acacia Wood Wall",
 	"block.lepton.birch_wood_wall": "Birch Wood Wall",
@@ -62,5 +64,6 @@
 	"block.lepton.cut_red_sandstone_wall": "Cut Red Sandstone Wall",
 	"block.lepton.smooth_sandstone_wall": "Smooth Sandstone Wall",
 	"block.lepton.smooth_red_sandstone_wall": "Smooth Red Sandstone Wall",
-	"block.lepton.cracked_stone_brick_wall": "Cracked Stone Brick Wall"
+	"block.lepton.cracked_stone_brick_wall": "Cracked Stone Brick Wall",
+	"block.lepton.quartz_brick_wall": "Quartz Brick Wall"
 }

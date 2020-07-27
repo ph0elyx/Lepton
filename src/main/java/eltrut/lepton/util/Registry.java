@@ -4,7 +4,6 @@ import com.teamabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 
 import net.minecraft.block.Block;
-import net.minecraft.block.Block.Properties;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.WallBlock;
 import net.minecraft.item.ItemGroup;
@@ -16,7 +15,7 @@ public class Registry {
 		return SLAB;
 	}
 	
-	public static RegistryObject<Block> modSlab(RegistryHelper helper, Properties properties, String id) {
+	public static RegistryObject<Block> modSlab(RegistryHelper helper, Block.Properties properties, String id) {
 		final RegistryObject<Block> SLAB = helper.createBlock(id, () -> new SlabBlock(properties), ItemGroup.BUILDING_BLOCKS);
 		return SLAB;
 	}
@@ -26,7 +25,7 @@ public class Registry {
 		return STAIRS;
 	}
 	
-	public static RegistryObject<Block> modStairs(RegistryHelper helper, Block parent, String id, Properties properties) {
+	public static RegistryObject<Block> modStairs(RegistryHelper helper, Block parent, String id, Block.Properties properties) {
 		final RegistryObject<Block> STAIRS = helper.createBlock(id, () -> new AbnormalsStairsBlock(parent.getDefaultState(), properties), ItemGroup.BUILDING_BLOCKS);
 		return STAIRS;
 	}
