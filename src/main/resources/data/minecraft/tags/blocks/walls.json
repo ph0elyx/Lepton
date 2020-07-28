@@ -28,6 +28,10 @@
 		"lepton:stripped_jungle_wood_wall",
 		"lepton:stripped_oak_wood_wall",
 		"lepton:stripped_spruce_wood_wall",
-		"lepton:quartz_brick_wall"
+		"lepton:quartz_brick_wall",
+		"lepton:crimson_hyphae_wall",
+		"lepton:warped_hyphae_wall",
+		"lepton:stripped_crimson_hyphae_wall",
+		"lepton:stripped_warped_hyphae_wall"
 	]
 }

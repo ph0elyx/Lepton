@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lepton:block/stripped_warped_hyphae_slab"
+    },
+    "type=double": {
+      "model": "minecraft:block/stripped_warped_hyphae"
+    },
+    "type=top": {
+      "model": "lepton:block/stripped_warped_hyphae_slab_top"
+    }
+  }
+}

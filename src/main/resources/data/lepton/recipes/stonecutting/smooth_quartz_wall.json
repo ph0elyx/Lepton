@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:smooth_quartz_block"
+  },
+  "result": "lepton:smooth_quartz_wall",
+  "count": 1
+}

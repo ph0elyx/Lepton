@@ -14,6 +14,10 @@
 		"lepton:stripped_jungle_wood_slab",
 		"lepton:stripped_oak_wood_slab",
 		"lepton:stripped_spruce_wood_slab",
-		"lepton:quartz_brick_slab"
+		"lepton:quartz_brick_slab",
+		"lepton:crimson_hyphae_slab",
+		"lepton:warped_hyphae_slab",
+		"lepton:stripped_crimson_hyphae_slab",
+		"lepton:stripped_warped_hyphae_slab"
 	]
 }
