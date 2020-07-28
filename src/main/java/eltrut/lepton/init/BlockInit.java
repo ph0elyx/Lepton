@@ -25,8 +25,8 @@ public class BlockInit {
 	public static final RegistryObject<Block> JUNGLE_WOOD_SLAB = Registry.slab(HELPER, Blocks.JUNGLE_WOOD, "jungle_wood_slab");
 	public static final RegistryObject<Block> OAK_WOOD_SLAB = Registry.slab(HELPER, Blocks.OAK_WOOD, "oak_wood_slab");
 	public static final RegistryObject<Block> SPRUCE_WOOD_SLAB = Registry.slab(HELPER, Blocks.SPRUCE_WOOD, "spruce_wood_slab");
-	public static final RegistryObject<Block> CRIMSON_HYPHAE_SLAB = Registry.slab(HELPER, Blocks.field_235379_ms_, "crimson_hyphae_slab"); // field_235379_ms_ is Crimson Hyphae
-	public static final RegistryObject<Block> WARPED_HYPHAE_SLAB = Registry.slab(HELPER, Blocks.field_235370_mj_, "warped_hyphae_slab"); // field_235370_mj_ is Warped Hyphae
+	public static final RegistryObject<Block> CRIMSON_HYPHAE_SLAB = Registry.slab(HELPER, Blocks.CRIMSON_HYPHAE, "crimson_hyphae_slab");
+	public static final RegistryObject<Block> WARPED_HYPHAE_SLAB = Registry.slab(HELPER, Blocks.WARPED_HYPHAE, "warped_hyphae_slab");
 	
 	public static final RegistryObject<Block> STRIPPED_ACACIA_WOOD_SLAB = Registry.slab(HELPER, Blocks.STRIPPED_ACACIA_WOOD, "stripped_acacia_wood_slab");
 	public static final RegistryObject<Block> STRIPPED_BIRCH_WOOD_SLAB = Registry.slab(HELPER, Blocks.STRIPPED_BIRCH_WOOD, "stripped_birch_wood_slab");
@@ -34,11 +34,11 @@ public class BlockInit {
 	public static final RegistryObject<Block> STRIPPED_JUNGLE_WOOD_SLAB = Registry.slab(HELPER, Blocks.STRIPPED_JUNGLE_WOOD, "stripped_jungle_wood_slab");
 	public static final RegistryObject<Block> STRIPPED_OAK_WOOD_SLAB = Registry.slab(HELPER, Blocks.STRIPPED_OAK_WOOD, "stripped_oak_wood_slab");
 	public static final RegistryObject<Block> STRIPPED_SPRUCE_WOOD_SLAB = Registry.slab(HELPER, Blocks.STRIPPED_SPRUCE_WOOD, "stripped_spruce_wood_slab");
-	public static final RegistryObject<Block> STRIPPED_CRIMSON_HYPHAE_SLAB = Registry.slab(HELPER, Blocks.field_235380_mt_, "stripped_crimson_hyphae_slab"); // field_235380_mt_ is Stripped Crimson Hyphae
-	public static final RegistryObject<Block> STRIPPED_WARPED_HYPHAE_SLAB = Registry.slab(HELPER, Blocks.field_235371_mk_, "stripped_warped_hyphae_slab"); // field_235371_mk_ is Stripped Warped Hyphae
+	public static final RegistryObject<Block> STRIPPED_CRIMSON_HYPHAE_SLAB = Registry.slab(HELPER, Blocks.STRIPPED_CRIMSON_HYPHAE, "stripped_crimson_hyphae_slab");
+	public static final RegistryObject<Block> STRIPPED_WARPED_HYPHAE_SLAB = Registry.slab(HELPER, Blocks.STRIPPED_WARPED_HYPHAE, "stripped_warped_hyphae_slab");
 	
 	public static final RegistryObject<Block> CRACKED_STONE_BRICK_SLAB = Registry.slab(HELPER, Blocks.CRACKED_STONE_BRICKS, "cracked_stone_brick_slab");
-	public static final RegistryObject<Block> QUARTZ_BRICK_SLAB = Registry.slab(HELPER, Blocks.field_235395_nI_, "quartz_brick_slab"); // field_235395_nI_ is Quartz Bricks
+	public static final RegistryObject<Block> QUARTZ_BRICK_SLAB = Registry.slab(HELPER, Blocks.QUARTZ_BRICKS, "quartz_brick_slab");
 	
 	// Stairs
 	public static final RegistryObject<Block> ACACIA_WOOD_STAIRS = Registry.stairs(HELPER, Blocks.ACACIA_WOOD, "acacia_wood_stairs");
@@ -47,8 +47,8 @@ public class BlockInit {
 	public static final RegistryObject<Block> JUNGLE_WOOD_STAIRS = Registry.stairs(HELPER, Blocks.JUNGLE_WOOD, "jungle_wood_stairs");
 	public static final RegistryObject<Block> OAK_WOOD_STAIRS = Registry.stairs(HELPER, Blocks.OAK_WOOD, "oak_wood_stairs");
 	public static final RegistryObject<Block> SPRUCE_WOOD_STAIRS = Registry.stairs(HELPER, Blocks.SPRUCE_WOOD, "spruce_wood_stairs");
-	public static final RegistryObject<Block> CRIMSON_HYPHAE_STAIRS = Registry.stairs(HELPER, Blocks.field_235379_ms_, "crimson_hyphae_stairs");
-	public static final RegistryObject<Block> WARPED_HYPHAE_STAIRS = Registry.stairs(HELPER, Blocks.field_235370_mj_, "warped_hyphae_stairs");
+	public static final RegistryObject<Block> CRIMSON_HYPHAE_STAIRS = Registry.stairs(HELPER, Blocks.CRIMSON_HYPHAE, "crimson_hyphae_stairs");
+	public static final RegistryObject<Block> WARPED_HYPHAE_STAIRS = Registry.stairs(HELPER, Blocks.WARPED_HYPHAE, "warped_hyphae_stairs");
 	
 	public static final RegistryObject<Block> STRIPPED_ACACIA_WOOD_STAIRS = Registry.stairs(HELPER, Blocks.STRIPPED_ACACIA_WOOD, "stripped_acacia_wood_stairs");
 	public static final RegistryObject<Block> STRIPPED_BIRCH_WOOD_STAIRS = Registry.stairs(HELPER, Blocks.STRIPPED_BIRCH_WOOD, "stripped_birch_wood_stairs");
@@ -56,14 +56,14 @@ public class BlockInit {
 	public static final RegistryObject<Block> STRIPPED_JUNGLE_WOOD_STAIRS = Registry.stairs(HELPER, Blocks.STRIPPED_JUNGLE_WOOD, "stripped_jungle_wood_stairs");
 	public static final RegistryObject<Block> STRIPPED_OAK_WOOD_STAIRS = Registry.stairs(HELPER, Blocks.STRIPPED_OAK_WOOD, "stripped_oak_wood_stairs");
 	public static final RegistryObject<Block> STRIPPED_SPRUCE_WOOD_STAIRS = Registry.stairs(HELPER, Blocks.STRIPPED_SPRUCE_WOOD, "stripped_spruce_wood_stairs");
-	public static final RegistryObject<Block> STRIPPED_CRIMSON_HYPHAE_STAIRS = Registry.stairs(HELPER, Blocks.field_235380_mt_, "stripped_crimson_hyphae_stairs");
-	public static final RegistryObject<Block> STRIPPED_WARPED_HYPHAE_STAIRS = Registry.stairs(HELPER, Blocks.field_235371_mk_, "stripped_warped_hyphae_stairs");
+	public static final RegistryObject<Block> STRIPPED_CRIMSON_HYPHAE_STAIRS = Registry.stairs(HELPER, Blocks.STRIPPED_CRIMSON_HYPHAE, "stripped_crimson_hyphae_stairs");
+	public static final RegistryObject<Block> STRIPPED_WARPED_HYPHAE_STAIRS = Registry.stairs(HELPER, Blocks.STRIPPED_WARPED_HYPHAE, "stripped_warped_hyphae_stairs");
 	
 	public static final RegistryObject<Block> SMOOTH_STONE_STAIRS = Registry.stairs(HELPER, Blocks.SMOOTH_STONE, "smooth_stone_stairs");
 	public static final RegistryObject<Block> CUT_SANDSTONE_STAIRS = Registry.stairs(HELPER, Blocks.CUT_SANDSTONE, "cut_sandstone_stairs");
 	public static final RegistryObject<Block> CUT_RED_SANDSTONE_STAIRS = Registry.stairs(HELPER, Blocks.CUT_RED_SANDSTONE, "cut_red_sandstone_stairs");
 	public static final RegistryObject<Block> CRACKED_STONE_BRICK_STAIRS = Registry.stairs(HELPER, Blocks.CRACKED_STONE_BRICKS, "cracked_stone_brick_stairs");
-	public static final RegistryObject<Block> QUARTZ_BRICK_STAIRS = Registry.stairs(HELPER, Blocks.field_235395_nI_, "quartz_brick_stairs");
+	public static final RegistryObject<Block> QUARTZ_BRICK_STAIRS = Registry.stairs(HELPER, Blocks.QUARTZ_BRICKS, "quartz_brick_stairs");
 	
 	// Walls
 	public static final RegistryObject<Block> ACACIA_WOOD_WALL = Registry.wall(HELPER, Blocks.ACACIA_WOOD, "acacia_wood_wall");
@@ -72,8 +72,8 @@ public class BlockInit {
 	public static final RegistryObject<Block> JUNGLE_WOOD_WALL = Registry.wall(HELPER, Blocks.JUNGLE_WOOD, "jungle_wood_wall");
 	public static final RegistryObject<Block> OAK_WOOD_WALL = Registry.wall(HELPER, Blocks.OAK_WOOD, "oak_wood_wall");
 	public static final RegistryObject<Block> SPRUCE_WOOD_WALL = Registry.wall(HELPER, Blocks.SPRUCE_WOOD, "spruce_wood_wall");
-	public static final RegistryObject<Block> CRIMSON_HYPHAE_WALL = Registry.wall(HELPER, Blocks.field_235379_ms_, "crimson_hyphae_wall");
-	public static final RegistryObject<Block> WARPED_HYPHAE_WALL = Registry.wall(HELPER, Blocks.field_235370_mj_, "warped_hyphae_wall");
+	public static final RegistryObject<Block> CRIMSON_HYPHAE_WALL = Registry.wall(HELPER, Blocks.CRIMSON_HYPHAE, "crimson_hyphae_wall");
+	public static final RegistryObject<Block> WARPED_HYPHAE_WALL = Registry.wall(HELPER, Blocks.WARPED_HYPHAE, "warped_hyphae_wall");
 	
 	public static final RegistryObject<Block> STRIPPED_ACACIA_WOOD_WALL = Registry.wall(HELPER, Blocks.STRIPPED_ACACIA_WOOD, "stripped_acacia_wood_wall");
 	public static final RegistryObject<Block> STRIPPED_BIRCH_WOOD_WALL = Registry.wall(HELPER, Blocks.STRIPPED_BIRCH_WOOD, "stripped_birch_wood_wall");
@@ -81,8 +81,8 @@ public class BlockInit {
 	public static final RegistryObject<Block> STRIPPED_JUNGLE_WOOD_WALL = Registry.wall(HELPER, Blocks.STRIPPED_JUNGLE_WOOD, "stripped_jungle_wood_wall");
 	public static final RegistryObject<Block> STRIPPED_OAK_WOOD_WALL = Registry.wall(HELPER, Blocks.STRIPPED_OAK_WOOD, "stripped_oak_wood_wall");
 	public static final RegistryObject<Block> STRIPPED_SPRUCE_WOOD_WALL = Registry.wall(HELPER, Blocks.STRIPPED_SPRUCE_WOOD, "stripped_spruce_wood_wall");
-	public static final RegistryObject<Block> STRIPPED_CRIMSON_HYPHAE_WALL = Registry.wall(HELPER, Blocks.field_235380_mt_, "stripped_crimson_hyphae_wall");
-	public static final RegistryObject<Block> STRIPPED_WARPED_HYPHAE_WALL = Registry.wall(HELPER, Blocks.field_235371_mk_, "stripped_warped_hyphae_wall");
+	public static final RegistryObject<Block> STRIPPED_CRIMSON_HYPHAE_WALL = Registry.wall(HELPER, Blocks.STRIPPED_CRIMSON_HYPHAE, "stripped_crimson_hyphae_wall");
+	public static final RegistryObject<Block> STRIPPED_WARPED_HYPHAE_WALL = Registry.wall(HELPER, Blocks.STRIPPED_WARPED_HYPHAE, "stripped_warped_hyphae_wall");
 	
 	public static final RegistryObject<Block> PURPUR_WALL = Registry.wall(HELPER, Blocks.PURPUR_BLOCK, "purpur_wall");
 	public static final RegistryObject<Block> QUARTZ_WALL = Registry.wall(HELPER, Blocks.QUARTZ_BLOCK, "quartz_wall");
@@ -99,5 +99,5 @@ public class BlockInit {
 	public static final RegistryObject<Block> SMOOTH_SANDSTONE_WALL = Registry.wall(HELPER, Blocks.SMOOTH_SANDSTONE, "smooth_sandstone_wall");
 	public static final RegistryObject<Block> SMOOTH_RED_SANDSTONE_WALL = Registry.wall(HELPER, Blocks.SMOOTH_RED_SANDSTONE, "smooth_red_sandstone_wall");
 	public static final RegistryObject<Block> CRACKED_STONE_BRICK_WALL = Registry.wall(HELPER, Blocks.CRACKED_STONE_BRICKS, "cracked_stone_brick_wall");
-	public static final RegistryObject<Block> QUARTZ_BRICK_WALL = Registry.wall(HELPER, Blocks.field_235395_nI_, "quartz_brick_wall");
+	public static final RegistryObject<Block> QUARTZ_BRICK_WALL = Registry.wall(HELPER, Blocks.QUARTZ_BRICKS, "quartz_brick_wall");
 }
