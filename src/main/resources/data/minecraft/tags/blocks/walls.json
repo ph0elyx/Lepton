@@ -32,6 +32,10 @@
 		"lepton:crimson_hyphae_wall",
 		"lepton:warped_hyphae_wall",
 		"lepton:stripped_crimson_hyphae_wall",
-		"lepton:stripped_warped_hyphae_wall"
+		"lepton:stripped_warped_hyphae_wall",
+		"lepton:cracked_sandstone_wall",
+		"lepton:cracked_red_sandstone_wall",
+		"lepton:cracked_nether_brick_wall",
+		"lepton:cracked_polished_blackstone_brick_wall"
 	]
 }

@@ -1,6 +1,12 @@
 {
 	"block.lepton.cracked_sandstone": "Cracked Sandstone",
 	"block.lepton.cracked_red_sandstone": "Cracked Red Sandstone",
+	"block.lepton.cracked_sandstone_slab": "Cracked Sandstone Slab",
+	"block.lepton.cracked_red_sandstone_slab": "Cracked Red Sandstone Slab",
+	"block.lepton.cracked_sandstone_stairs": "Cracked Sandstone Stairs",
+	"block.lepton.cracked_red_sandstone_stairs": "Cracked Red Sandstone Stairs",
+	"block.lepton.cracked_sandstone_wall": "Cracked Sandstone Wall",
+	"block.lepton.cracked_red_sandstone_wall": "Cracked Red Sandstone Wall",
 	
 	"block.lepton.acacia_wood_slab": "Acacia Wood Slab",
 	"block.lepton.birch_wood_slab": "Birch Wood Slab",
@@ -21,6 +27,8 @@
 	
 	"block.lepton.cracked_stone_brick_slab": "Cracked Stone Brick Slab",
 	"block.lepton.quartz_brick_slab": "Quartz Brick Slab",
+	"block.lepton.cracked_nether_brick_slab": "Cracked Nether Brick Slab",
+	"block.lepton.cracked_polished_blackstone_brick_slab": "Cracked Polished Blackstone Brick Slab",
 	
 	"block.lepton.acacia_wood_stairs": "Acacia Wood Stairs",
 	"block.lepton.birch_wood_stairs": "Birch Wood Stairs",
@@ -44,6 +52,8 @@
 	"block.lepton.cut_red_sandstone_stairs": "Cut Red Sandstone Stairs",
 	"block.lepton.cracked_stone_brick_stairs": "Cracked Stone Brick Stairs",
 	"block.lepton.quartz_brick_stairs": "Quartz Brick Stairs",
+	"block.lepton.cracked_nether_brick_stairs": "Cracked Nether Brick Stairs",
+	"block.lepton.cracked_polished_blackstone_brick_stairs": "Cracked Polished Blackstone Brick Stairs",
 	
 	"block.lepton.acacia_wood_wall": "Acacia Wood Wall",
 	"block.lepton.birch_wood_wall": "Birch Wood Wall",
@@ -77,5 +87,7 @@
 	"block.lepton.smooth_sandstone_wall": "Smooth Sandstone Wall",
 	"block.lepton.smooth_red_sandstone_wall": "Smooth Red Sandstone Wall",
 	"block.lepton.cracked_stone_brick_wall": "Cracked Stone Brick Wall",
-	"block.lepton.quartz_brick_wall": "Quartz Brick Wall"
+	"block.lepton.quartz_brick_wall": "Quartz Brick Wall",
+	"block.lepton.cracked_nether_brick_wall": "Cracked Nether Brick Wall",
+	"block.lepton.cracked_polished_blackstone_brick_wall": "Cracked Polished Blackstone Brick Wall"
 }

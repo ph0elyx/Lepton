@@ -18,6 +18,10 @@
 		"lepton:crimson_hyphae_slab",
 		"lepton:warped_hyphae_slab",
 		"lepton:stripped_crimson_hyphae_slab",
-		"lepton:stripped_warped_hyphae_slab"
+		"lepton:stripped_warped_hyphae_slab",
+		"lepton:cracked_sandstone_slab",
+		"lepton:cracked_red_sandstone_slab",
+		"lepton:cracked_nether_brick_slab",
+		"lepton:cracked_polished_blackstone_brick_slab"
 	]
 }
