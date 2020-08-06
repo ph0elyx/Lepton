@@ -4,7 +4,7 @@
       "model": "lepton:block/cracked_red_sandstone_slab"
     },
     "type=double": {
-      "model": "minecraft:block/cracked_red_sandstones"
+      "model": "lepton:block/cracked_red_sandstone"
     },
     "type=top": {
       "model": "lepton:block/cracked_red_sandstone_slab_top"

@@ -5,14 +5,19 @@ import org.apache.logging.log4j.Logger;
 
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 
+import eltrut.lepton.world.gen.OreGen;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod("lepton")
+@Mod.EventBusSubscriber(modid = "lepton", bus = Bus.MOD)
 public class Lepton
 {
     private static final Logger LOGGER = LogManager.getLogger();
@@ -22,8 +27,7 @@ public class Lepton
 
     IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-    @SuppressWarnings("deprecation")
-	public Lepton() {
+    public Lepton() {
         modEventBus.addListener(this::doCommonStuff);
     	modEventBus.addListener(this::doClientStuff);
         instance = this;
@@ -33,6 +37,11 @@ public class Lepton
         
         MinecraftForge.EVENT_BUS.register(this);
         
+    }
+    
+    @SubscribeEvent
+    public static void loadCompleteEvent(FMLLoadCompleteEvent event) {
+    	OreGen.generateOre();
     }
 
     private void doCommonStuff(final FMLCommonSetupEvent event)

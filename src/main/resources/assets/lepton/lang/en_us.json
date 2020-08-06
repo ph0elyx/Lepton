@@ -1,4 +1,22 @@
 {
+	"item.lepton.silver_ingot": "Silver Ingot",
+	"item.lepton.electrum_ingot": "Electrum Ingot",
+	"item.lepton.steel_ingot": "Steel Ingot",
+	
+	"item.lepton.steel_sword": "Steel Sword",
+	"item.lepton.steel_pickaxe": "Steel Pickaxe",
+	"item.lepton.steel_axe": "Steel Axe",
+	"item.lepton.steel_shovel": "Steel Shovel",
+	"item.lepton.steel_hoe": "Steel Hoe",
+	
+	"item.lepton.electrum_sword": "Electrum Sword",
+	"item.lepton.electrum_pickaxe": "Electrum Pickaxe",
+	"item.lepton.electrum_axe": "Electrum Axe",
+	"item.lepton.electrum_shovel": "Electrum Shovel",
+	"item.lepton.electrum_hoe": "Electrum Hoe",
+	
+	"block.lepton.silver_ore": "Silver Ore",
+	
 	"block.lepton.cracked_sandstone": "Cracked Sandstone",
 	"block.lepton.cracked_red_sandstone": "Cracked Red Sandstone",
 	"block.lepton.cracked_sandstone_slab": "Cracked Sandstone Slab",
