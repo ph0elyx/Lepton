@@ -1,10 +1,9 @@
-package eltrut.lepton.init;
+package eltrut.lepton.core;
 
 import java.util.function.Supplier;
 
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 
-import eltrut.lepton.Lepton;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.HoeItem;
 import net.minecraft.item.IItemTier;

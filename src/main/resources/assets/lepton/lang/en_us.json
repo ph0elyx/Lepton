@@ -17,6 +17,14 @@
 	
 	"block.lepton.silver_ore": "Silver Ore",
 	
+	"block.lepton.polished_andesite_button": "Polished Andesite Button",
+	"block.lepton.polished_diorite_button": "Polished Diorite Button",
+	"block.lepton.polished_granite_button": "Polished Granite Button",
+	
+	"block.lepton.polished_andesite_pressure_plate": "Polished Andesite Pressure Plate",
+	"block.lepton.polished_diorite_pressure_plate": "Polished Diorite Pressure Plate",
+	"block.lepton.polished_granite_pressure_plate": "Polished Granite Pressure Plate",
+	
 	"block.lepton.cracked_sandstone": "Cracked Sandstone",
 	"block.lepton.cracked_red_sandstone": "Cracked Red Sandstone",
 	"block.lepton.cracked_sandstone_slab": "Cracked Sandstone Slab",

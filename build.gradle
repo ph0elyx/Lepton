@@ -18,13 +18,13 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.0'
-group = 'com.yourname.modid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'modid'
+group = 'eltrut.lepton' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'lepton'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
 minecraft {
-    mappings channel: 'snapshot', version: '20200723-1.16.1'
+    mappings channel: 'snapshot', version: '20200820-1.16.1'
     runs {
         client {
             workingDirectory project.file('run')
@@ -73,8 +73,8 @@ minecraft {
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.1-32.0.75'
-    implementation fg.deobf("curse.maven:abnormals-core:2989106")
+    minecraft 'net.minecraftforge:forge:1.16.1-32.0.108'
+    implementation fg.deobf("curse.maven:abnormals-core:3043251")
 
 }
 

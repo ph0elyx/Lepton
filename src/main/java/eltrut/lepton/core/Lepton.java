@@ -1,11 +1,11 @@
-package eltrut.lepton;
+package eltrut.lepton.core;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 
-import eltrut.lepton.world.gen.OreGen;
+import eltrut.lepton.common.world.OreGen;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

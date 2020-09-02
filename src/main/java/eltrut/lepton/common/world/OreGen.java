@@ -1,6 +1,6 @@
-package eltrut.lepton.world.gen;
+package eltrut.lepton.common.world;
 
-import eltrut.lepton.init.BlockInit;
+import eltrut.lepton.core.BlockInit;
 import net.minecraft.block.BlockState;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;
