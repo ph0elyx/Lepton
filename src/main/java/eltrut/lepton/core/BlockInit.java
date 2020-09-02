@@ -76,8 +76,6 @@ public class BlockInit {
 		public static final AbstractBlock.Properties ELDER_PRISMARINE = AbstractBlock.Properties.create(Material.ROCK, MaterialColor.ADOBE).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 10F).sound(SoundType.STONE);
 	}
 	
-	public static final RegistryObject<Block> SILVER_ORE = HELPER.createBlock("silver_ore", () -> new Block((AbstractBlock.Properties.create(Material.ROCK).setRequiresTool().hardnessAndResistance(3.0F, 3.0F))), ItemGroup.BUILDING_BLOCKS);
-	
 	// Cracked Sandstone
 	public static final RegistryObject<Block> CRACKED_SANDSTONE = HELPER.createBlock("cracked_sandstone", () -> new Block(Properties.SANDSTONE), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> CRACKED_RED_SANDSTONE = HELPER.createBlock("cracked_red_sandstone", () -> new Block(Properties.RED_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
