@@ -12,8 +12,6 @@ import eltrut.lepton.common.blocks.LogWallBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.FenceBlock;
-import net.minecraft.block.FenceGateBlock;
 import net.minecraft.block.PressurePlateBlock.Sensitivity;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.SoundType;
@@ -202,9 +200,6 @@ public class BlockInit {
 	public static final RegistryObject<Block> POLISHED_SLATE_PRESSURE_PLATE = HELPER.createCompatBlock("quark", "polished_slate_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.GRANITE_PRESSURE_PLATE), ItemGroup.REDSTONE);
 	public static final RegistryObject<Block> POLISHED_VOIDSTONE_PRESSURE_PLATE = HELPER.createCompatBlock("quark", "polished_voidstone_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.GRANITE_PRESSURE_PLATE), ItemGroup.REDSTONE);
 	
-	// Fences
-	public static final RegistryObject<Block> RED_NETHER_BRICK_FENCE = HELPER.createBlock("red_nether_brick_fence", () -> new FenceBlock(AbstractBlock.Properties.from(Blocks.RED_NETHER_BRICKS)), ItemGroup.DECORATIONS);
-	
 	// Quark Compat
 	public static final RegistryObject<Block> CRACKED_SANDSTONE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "cracked_sandstone_vertical_slab", () -> new VerticalSlabBlock(Properties.SANDSTONE), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> CRACKED_RED_SANDSTONE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "cracked_red_sandstone_vertical_slab", () -> new VerticalSlabBlock(Properties.RED_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
@@ -238,7 +233,7 @@ public class BlockInit {
 	public static final RegistryObject<Block> BIOTITE_BRICK_WALL = HELPER.createCompatBlock("quark", "biotite_brick_wall", () -> new WallBlock(Properties.BIOTITE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> BIOTITE_BRICK_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "biotite_brick_vertical_slab", () -> new VerticalSlabBlock(Properties.BIOTITE), ItemGroup.BUILDING_BLOCKS);
 	
-	public static final RegistryObject<Block> SOUL_SANDSTONE_STAIRS = HELPER.createCompatBlock("quark", "soul_sandstone_stairs", () -> new AbnormalsStairsBlock(Blocks.BROWN_CONCRETE_POWDER.getDefaultState(), Properties.SOUL_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CUT_SOUL_SANDSTONE_STAIRS = HELPER.createCompatBlock("quark", "cut_soul_sandstone_stairs", () -> new AbnormalsStairsBlock(Blocks.BROWN_CONCRETE_POWDER.getDefaultState(), Properties.SOUL_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
 	
 	public static final RegistryObject<Block> MIDORI_WALL = HELPER.createCompatBlock("quark", "midori_wall", () -> new WallBlock(Properties.MIDORI), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> BIOTITE_WALL = HELPER.createCompatBlock("quark", "biotite_wall", () -> new WallBlock(Properties.BIOTITE), ItemGroup.DECORATIONS);
@@ -252,10 +247,6 @@ public class BlockInit {
 	public static final RegistryObject<Block> DARK_ELDER_PRISMARINE_WALL = HELPER.createCompatBlock("quark", "dark_elder_prismarine_wall", () -> new WallBlock(Properties.ELDER_PRISMARINE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> CUT_SOUL_SANDSTONE_WALL = HELPER.createCompatBlock("quark", "cut_soul_sandstone_wall", () -> new WallBlock(Properties.SOUL_SANDSTONE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> SMOOTH_SOUL_SANDSTONE_WALL = HELPER.createCompatBlock("quark", "smooth_soul_sandstone_wall", () -> new WallBlock(Properties.SOUL_SANDSTONE), ItemGroup.DECORATIONS);
-	
-	public static final RegistryObject<Block> RED_NETHER_BRICK_FENCE_GATE = HELPER.createCompatBlock("quark", "red_nether_brick_fence_gate", () -> new FenceGateBlock(AbstractBlock.Properties.from(Blocks.RED_NETHER_BRICKS)), ItemGroup.REDSTONE);
-	public static final RegistryObject<Block> BLUE_NETHER_BRICK_FENCE = HELPER.createCompatBlock("quark", "blue_nether_brick_fence", () -> new FenceBlock(AbstractBlock.Properties.from(Blocks.NETHER_BRICKS)), ItemGroup.DECORATIONS);
-	public static final RegistryObject<Block> BLUE_NETHER_BRICK_FENCE_GATE = HELPER.createCompatBlock("quark", "blue_nether_brick_fence_gate", () -> new FenceGateBlock(AbstractBlock.Properties.from(Blocks.NETHER_BRICKS)), ItemGroup.REDSTONE);
 	
 	// Abnormals Mods Compat
 	
