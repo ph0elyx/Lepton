@@ -24,7 +24,7 @@ archivesBaseName = 'lepton'
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
 minecraft {
-    mappings channel: 'snapshot', version: '20200820-1.16.1'
+    mappings channel: 'snapshot', version: '20200723-1.16.1'
     runs {
         client {
             workingDirectory project.file('run')
@@ -75,7 +75,8 @@ minecraft {
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.1-32.0.108'
     implementation fg.deobf("curse.maven:abnormals-core:3043251")
-
+    implementation fg.deobf("curse.maven:autoreglib:3017289")
+    implementation fg.deobf("curse.maven:quark:3048203")
 }
 
 jar {

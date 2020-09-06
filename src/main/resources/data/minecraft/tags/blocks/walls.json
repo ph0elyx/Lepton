@@ -36,6 +36,20 @@
 		"lepton:cracked_sandstone_wall",
 		"lepton:cracked_red_sandstone_wall",
 		"lepton:cracked_nether_brick_wall",
-		"lepton:cracked_polished_blackstone_brick_wall"
+		"lepton:cracked_polished_blackstone_brick_wall",
+		"lepton:cracked_soul_sandstone_wall",
+		"lepton:biotite_brick_wall",
+		"lepton:midori_wall",
+		"lepton:biotite_wall",
+		"lepton:smooth_biotite_wall",
+		"lepton:polished_marble_wall",
+		"lepton:polished_limestone_wall",
+		"lepton:polished_jasper_wall",
+		"lepton:polished_slate_wall",
+		"lepton:polished_voidstone_wall",
+		"lepton:elder_prismarine_brick_wall",
+		"lepton:dark_elder_prismarine_wall",
+		"lepton:cut_soul_sandstone_wall",
+		"lepton:smooth_soul_sandstone_wall"
 	]
 }

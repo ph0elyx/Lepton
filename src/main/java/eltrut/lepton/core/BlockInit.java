@@ -207,7 +207,7 @@ public class BlockInit {
 	
 	public static final RegistryObject<Block> STRIPPED_ACACIA_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "stripped_acacia_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_ACACIA_WOOD), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> STRIPPED_BIRCH_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "stripped_birch_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_BIRCH_WOOD), ItemGroup.BUILDING_BLOCKS);
-	public static final RegistryObject<Block> STRIPPED_DARK_OAK_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "stripped_dark_oak_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_DARK_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_DARK_OAK_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "stripped_dark_oak_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_DARK_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> STRIPPED_JUNGLE_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "stripped_jungle_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_JUNGLE_WOOD), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> STRIPPED_OAK_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "stripped_oak_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> STRIPPED_SPRUCE_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "stripped_spruce_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_SPRUCE_WOOD), ItemGroup.BUILDING_BLOCKS);
