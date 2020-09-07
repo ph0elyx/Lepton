@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quark:basalt"
+  },
+  "result": "lepton:polished_voidstone_wall",
+  "count": 1,
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "basalt"
+    }
+  ]
+}

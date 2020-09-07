@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quark:polished_jasper"
+    }
+  ],
+  "result": {
+    "item": "lepton:polished_jasper_button"
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "jasper"
+    }
+  ]
+}

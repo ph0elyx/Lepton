@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "quark:polished_basalt"
+    }
+  },
+  "result": {
+    "item": "lepton:polished_voidstone_wall",
+    "count": 6
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "basalt"
+    }
+  ]
+}
