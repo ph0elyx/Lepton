@@ -3,7 +3,6 @@ package eltrut.lepton.core;
 import com.teamabnormals.abnormals_core.common.blocks.AbnormalsPressurePlateBlock;
 import com.teamabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 import com.teamabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
-import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 
 import eltrut.lepton.common.blocks.LogSlabBlock;
 import eltrut.lepton.common.blocks.LogStairsBlock;
@@ -26,7 +25,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
 @Mod.EventBusSubscriber(modid = Lepton.MOD_ID, bus = Bus.MOD)
 public class BlockInit {
-	public static final RegistryHelper HELPER = Lepton.REGISTRY_HELPER;
+	public static final LeptonRegistryHelper HELPER = Lepton.REGISTRY_HELPER;
 	
 	public static class Properties {
 		public static final Block.Properties SANDSTONE = Block.Properties.from(Blocks.SANDSTONE);
@@ -248,6 +247,13 @@ public class BlockInit {
 	public static final RegistryObject<Block> SMOOTH_SOUL_SANDSTONE_WALL = HELPER.createCompatBlock("quark", "smooth_soul_sandstone_wall", () -> new WallBlock(Properties.SOUL_SANDSTONE), ItemGroup.DECORATIONS);
 	
 	// Abnormals Mods Compat
+	// Atmospheric: arid sandstone, red arid sandstone
+	// 	rosewood, yucca, kousa, crustose?, aspen, grimwood
+	// Autumnity: maple
+	// Endergetic Expansion: poise
+	// Upgrade Aquatic: driftwood, river
 	
 	// Aurora Mods Compat
+	// Enhanced Mushrooms: red mushroom, brown mushroom, glowshroom
+	// Hanami: sakura
 }
