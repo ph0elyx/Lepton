@@ -70,6 +70,10 @@ public class BlockInit {
 		public static final Block.Properties SLATE = Block.Properties.create(Material.ROCK, MaterialColor.ICE).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 6.0F);
 		public static final Block.Properties VOIDSTONE = Block.Properties.create(Material.ROCK, MaterialColor.BLACK).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 6.0F);
 		public static final Block.Properties ELDER_PRISMARINE = Block.Properties.create(Material.ROCK, MaterialColor.ADOBE).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 10F).sound(SoundType.STONE);
+		
+		// Abnormals Mods
+		public static final Block.Properties STRIPPED_MAPLE_WOOD = Block.Properties.create(Material.WOOD, MaterialColor.ORANGE_TERRACOTTA).hardnessAndResistance(2.0F).sound(SoundType.WOOD);
+		public static final Block.Properties MAPLE_WOOD = Block.Properties.create(Material.WOOD, MaterialColor.WHITE_TERRACOTTA).hardnessAndResistance(2.0F).sound(SoundType.WOOD);
 	}
 	
 	// Cracked Sandstone
@@ -247,11 +251,80 @@ public class BlockInit {
 	public static final RegistryObject<Block> SMOOTH_SOUL_SANDSTONE_WALL = HELPER.createCompatBlock("quark", "smooth_soul_sandstone_wall", () -> new WallBlock(Properties.SOUL_SANDSTONE), ItemGroup.DECORATIONS);
 	
 	// Abnormals Mods Compat
-	// Atmospheric: arid sandstone, red arid sandstone
-	// 	rosewood, yucca, kousa, crustose?, aspen, grimwood
-	// Autumnity: maple
 	// Endergetic Expansion: poise
 	// Upgrade Aquatic: driftwood, river
+	
+	public static final RegistryObject<Block> CRACKED_ARID_SANDSTONE = HELPER.createCompatBlock("atmospheric", "cracked_arid_sandstone", () -> new Block(Properties.SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CRACKED_ARID_SANDSTONE_SLAB = HELPER.createCompatBlock("atmospheric", "cracked_arid_sandstone_slab", () -> new SlabBlock(Properties.SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CRACKED_ARID_SANDSTONE_STAIRS = HELPER.createCompatBlock("atmospheric", "cracked_arid_sandstone_stairs", () -> new AbnormalsStairsBlock(CRACKED_ARID_SANDSTONE.get().getDefaultState(), Properties.SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CRACKED_ARID_SANDSTONE_WALL = HELPER.createCompatBlock("atmospheric", "cracked_arid_sandstone_wall", () -> new WallBlock(Properties.SANDSTONE), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> CRACKED_ARID_SANDSTONE_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "cracked_arid_sandstone_vertical_slab", () -> new VerticalSlabBlock(Properties.SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> CRACKED_RED_ARID_SANDSTONE = HELPER.createCompatBlock("atmospheric", "cracked_red_arid_sandstone", () -> new Block(Properties.RED_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CRACKED_RED_ARID_SANDSTONE_SLAB = HELPER.createCompatBlock("atmospheric", "cracked_red_arid_sandstone_slab", () -> new SlabBlock(Properties.RED_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CRACKED_RED_ARID_SANDSTONE_STAIRS = HELPER.createCompatBlock("atmospheric", "cracked_red_arid_sandstone_stairs", () -> new AbnormalsStairsBlock(CRACKED_RED_ARID_SANDSTONE.get().getDefaultState(), Properties.RED_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CRACKED_RED_ARID_SANDSTONE_WALL = HELPER.createCompatBlock("atmospheric", "cracked_red_arid_sandstone_wall", () -> new WallBlock(Properties.RED_SANDSTONE), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> CRACKED_RED_ARID_SANDSTONE_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "cracked_red_arid_sandstone_vertical_slab", () -> new VerticalSlabBlock(Properties.RED_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> STRIPPED_ROSEWOOD_SLAB = HELPER.createCompatBlock("atmospheric", "stripped_rosewood_slab", () -> new SlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_ROSEWOOD_STAIRS = HELPER.createCompatBlock("atmospheric", "stripped_rosewood_stairs", () -> new AbnormalsStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_ROSEWOOD_WALL = HELPER.createCompatBlock("atmospheric", "stripped_rosewood_wall", () -> new WallBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> STRIPPED_ROSEWOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "stripped_rosewood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> ROSEWOOD_SLAB = HELPER.createCompatBlock("atmospheric", "rosewood_slab", () -> new LogSlabBlock(STRIPPED_ROSEWOOD_SLAB, Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> ROSEWOOD_STAIRS = HELPER.createCompatBlock("atmospheric", "rosewood_stairs", () -> new LogStairsBlock(STRIPPED_ROSEWOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> ROSEWOOD_WALL = HELPER.createCompatBlock("atmospheric", "rosewood_wall", () -> new LogWallBlock(STRIPPED_ROSEWOOD_WALL, Properties.OAK_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> ROSEWOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "rosewood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_ROSEWOOD_VERTICAL_SLAB, Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> STRIPPED_YUCCA_WOOD_SLAB = HELPER.createCompatBlock("atmospheric", "stripped_yucca_wood_slab", () -> new SlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_YUCCA_WOOD_STAIRS = HELPER.createCompatBlock("atmospheric", "stripped_yucca_wood_stairs", () -> new AbnormalsStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_YUCCA_WOOD_WALL = HELPER.createCompatBlock("atmospheric", "stripped_yucca_wood_wall", () -> new WallBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> STRIPPED_YUCCA_WOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "stripped_yucca_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> YUCCA_WOOD_SLAB = HELPER.createCompatBlock("atmospheric", "yucca_wood_slab", () -> new LogSlabBlock(STRIPPED_YUCCA_WOOD_SLAB, Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> YUCCA_WOOD_STAIRS = HELPER.createCompatBlock("atmospheric", "yucca_wood_stairs", () -> new LogStairsBlock(STRIPPED_YUCCA_WOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> YUCCA_WOOD_WALL = HELPER.createCompatBlock("atmospheric", "yucca_wood_wall", () -> new LogWallBlock(STRIPPED_YUCCA_WOOD_WALL, Properties.OAK_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> YUCCA_WOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "yucca_wood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_YUCCA_WOOD_VERTICAL_SLAB, Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> STRIPPED_KOUSA_WOOD_SLAB = HELPER.createCompatBlock("atmospheric", "stripped_kousa_wood_slab", () -> new SlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_KOUSA_WOOD_STAIRS = HELPER.createCompatBlock("atmospheric", "stripped_kousa_wood_stairs", () -> new AbnormalsStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_KOUSA_WOOD_WALL = HELPER.createCompatBlock("atmospheric", "stripped_kousa_wood_wall", () -> new WallBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> STRIPPED_KOUSA_WOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "stripped_kousa_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> KOUSA_WOOD_SLAB = HELPER.createCompatBlock("atmospheric", "kousa_wood_slab", () -> new LogSlabBlock(STRIPPED_KOUSA_WOOD_SLAB, Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> KOUSA_WOOD_STAIRS = HELPER.createCompatBlock("atmospheric", "kousa_wood_stairs", () -> new LogStairsBlock(STRIPPED_KOUSA_WOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> KOUSA_WOOD_WALL = HELPER.createCompatBlock("atmospheric", "kousa_wood_wall", () -> new LogWallBlock(STRIPPED_KOUSA_WOOD_WALL, Properties.OAK_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> KOUSA_WOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "kousa_wood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_KOUSA_WOOD_VERTICAL_SLAB, Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> STRIPPED_ASPEN_WOOD_SLAB = HELPER.createCompatBlock("atmospheric", "stripped_aspen_wood_slab", () -> new SlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_ASPEN_WOOD_STAIRS = HELPER.createCompatBlock("atmospheric", "stripped_aspen_wood_stairs", () -> new AbnormalsStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_ASPEN_WOOD_WALL = HELPER.createCompatBlock("atmospheric", "stripped_aspen_wood_wall", () -> new WallBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> STRIPPED_ASPEN_WOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "stripped_aspen_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> ASPEN_WOOD_SLAB = HELPER.createCompatBlock("atmospheric", "aspen_wood_slab", () -> new LogSlabBlock(STRIPPED_ASPEN_WOOD_SLAB, Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> ASPEN_WOOD_STAIRS = HELPER.createCompatBlock("atmospheric", "aspen_wood_stairs", () -> new LogStairsBlock(STRIPPED_ASPEN_WOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> ASPEN_WOOD_WALL = HELPER.createCompatBlock("atmospheric", "aspen_wood_wall", () -> new LogWallBlock(STRIPPED_ASPEN_WOOD_WALL, Properties.OAK_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> ASPEN_WOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "aspen_wood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_ASPEN_WOOD_VERTICAL_SLAB, Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> STRIPPED_GRIMWOOD_SLAB = HELPER.createCompatBlock("atmospheric", "stripped_grimwood_slab", () -> new SlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_GRIMWOOD_STAIRS = HELPER.createCompatBlock("atmospheric", "stripped_grimwood_stairs", () -> new AbnormalsStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_GRIMWOOD_WALL = HELPER.createCompatBlock("atmospheric", "stripped_grimwood_wall", () -> new WallBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> STRIPPED_GRIMWOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "stripped_grimwood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> GRIMWOOD_SLAB = HELPER.createCompatBlock("atmospheric", "grimwood_slab", () -> new LogSlabBlock(STRIPPED_GRIMWOOD_SLAB, Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> GRIMWOOD_STAIRS = HELPER.createCompatBlock("atmospheric", "grimwood_stairs", () -> new LogStairsBlock(STRIPPED_GRIMWOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> GRIMWOOD_WALL = HELPER.createCompatBlock("atmospheric", "grimwood_wall", () -> new LogWallBlock(STRIPPED_GRIMWOOD_WALL, Properties.OAK_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> GRIMWOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("atmospheric", "quark", "grimwood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_GRIMWOOD_VERTICAL_SLAB, Properties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> STRIPPED_MAPLE_WOOD_SLAB = HELPER.createCompatBlock("autumnity", "stripped_maple_wood_slab", () -> new SlabBlock(Properties.STRIPPED_MAPLE_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_MAPLE_WOOD_STAIRS = HELPER.createCompatBlock("autumnity", "stripped_maple_wood_stairs", () -> new AbnormalsStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), Properties.STRIPPED_MAPLE_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_MAPLE_WOOD_WALL = HELPER.createCompatBlock("autumnity", "stripped_maple_wood_wall", () -> new WallBlock(Properties.STRIPPED_MAPLE_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> STRIPPED_MAPLE_WOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("autumnity", "quark", "stripped_maple_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.STRIPPED_MAPLE_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> MAPLE_WOOD_SLAB = HELPER.createCompatBlock("autumnity", "maple_wood_slab", () -> new LogSlabBlock(STRIPPED_MAPLE_WOOD_SLAB, Properties.MAPLE_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> MAPLE_WOOD_STAIRS = HELPER.createCompatBlock("autumnity", "maple_wood_stairs", () -> new LogStairsBlock(STRIPPED_MAPLE_WOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), Properties.MAPLE_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> MAPLE_WOOD_WALL = HELPER.createCompatBlock("autumnity", "maple_wood_wall", () -> new LogWallBlock(STRIPPED_MAPLE_WOOD_WALL, Properties.MAPLE_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> MAPLE_WOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock("autumnity", "quark", "maple_wood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_MAPLE_WOOD_VERTICAL_SLAB, Properties.MAPLE_WOOD), ItemGroup.BUILDING_BLOCKS);
 	
 	// Aurora Mods Compat
 	// Enhanced Mushrooms: red mushroom, brown mushroom, glowshroom
