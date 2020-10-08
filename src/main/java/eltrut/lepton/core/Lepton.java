@@ -3,6 +3,7 @@ package eltrut.lepton.core;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import eltrut.lepton.core.registry.util.LeptonRegistryHelper;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

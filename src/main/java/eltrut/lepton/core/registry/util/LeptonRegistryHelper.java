@@ -1,4 +1,4 @@
-package eltrut.lepton.core;
+package eltrut.lepton.core.registry.util;
 
 import java.util.function.Supplier;
 
