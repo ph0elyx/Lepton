@@ -1,10 +1,9 @@
 package eltrut.lepton.common.blocks;
 
 import net.minecraft.block.BlockState;
-import net.minecraft.block.SlabBlock;
 import net.minecraft.util.Direction;
 
-public class AlphaStrippedLogSlabBlock extends SlabBlock {
+public class AlphaStrippedLogSlabBlock extends StrippedLogSlabBlock {
 
 	public AlphaStrippedLogSlabBlock(Properties properties) {
 		super(properties);

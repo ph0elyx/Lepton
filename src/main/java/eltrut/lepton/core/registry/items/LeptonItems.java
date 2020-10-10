@@ -1,4 +1,4 @@
-package eltrut.lepton.core.registry;
+package eltrut.lepton.core.registry.items;
 
 import com.teamabnormals.abnormals_core.core.utils.RegistryHelper;
 

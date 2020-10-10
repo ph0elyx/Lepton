@@ -57,4 +57,14 @@ public final class LeptonProperties {
 	public static final Block.Properties POISE_WOOD = Block.Properties.create(Material.WOOD, MaterialColor.LAPIS).sound(SoundType.WOOD).harvestTool(ToolType.AXE).hardnessAndResistance(2);
 	public static final Block.Properties DRIFTWOOD = Block.Properties.create(Material.WOOD, MaterialColor.STONE).sound(SoundType.WOOD).hardnessAndResistance(2);
 	public static final Block.Properties RIVER_WOOD = Block.Properties.create(Material.WOOD, MaterialColor.BROWN).sound(SoundType.WOOD).hardnessAndResistance(2);
+	
+	// Aurora Mods
+	/*
+	private static Block.Properties addLight(Block.Properties properties, int lightValue) {
+        return properties.func_235838_a_((p_235464_0_) -> {return lightValue;});
+    }
+    */
+	
+	public static final Block.Properties STRIPPED_GLOWSHROOM_HYPHAE = /*addLight(Block.Properties.from(Blocks.STRIPPED_OAK_LOG).notSolid(), 14)*/ Block.Properties.from(Blocks.STRIPPED_OAK_LOG);
+	public static final Block.Properties GLOWSHROOM_HYPHAE = /*addLight(Block.Properties.from(Blocks.OAK_WOOD).notSolid(),14)*/ Block.Properties.from(Blocks.OAK_WOOD);
 }

@@ -1,11 +1,9 @@
 package eltrut.lepton.common.blocks;
 
-import com.teamabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
-
 import net.minecraft.block.BlockState;
 import net.minecraft.util.Direction;
 
-public class AlphaStrippedLogStairsBlock extends AbnormalsStairsBlock {
+public class AlphaStrippedLogStairsBlock extends StrippedLogStairsBlock {
 
 	public AlphaStrippedLogStairsBlock(BlockState state, Properties properties) {
 		super(state, properties);
