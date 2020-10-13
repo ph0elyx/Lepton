@@ -30,8 +30,8 @@ minecraft {
             workingDirectory project.file('run')
 
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-
             property 'forge.logging.console.level', 'debug'
+			jvmArg "-Dmixin.env.disableRefMap=true"
 
             mods {
                 examplemod {
@@ -44,8 +44,8 @@ minecraft {
             workingDirectory project.file('run')
 
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-
             property 'forge.logging.console.level', 'debug'
+			jvmArg "-Dmixin.env.disableRefMap=true"
 
             mods {
                 examplemod {
@@ -74,9 +74,18 @@ minecraft {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.1-32.0.108'
-    implementation fg.deobf("curse.maven:abnormals-core:3043251")
+	
+    implementation fg.deobf("curse.maven:abnormals-core:3072976")
     implementation fg.deobf("curse.maven:autoreglib:3017289")
-    implementation fg.deobf("curse.maven:quark:3048203")
+    implementation fg.deobf("curse.maven:quark:3072823")
+	
+	implementation fg.deobf("curse.maven:atmospheric:3031563")
+	implementation fg.deobf("curse.maven:autumnity:3051136")
+	implementation fg.deobf("curse.maven:endergetic:3075871")
+	implementation fg.deobf("curse.maven:upgrade_aquatic:3032852")
+	
+	implementation fg.deobf("curse.maven:enhanced_mushrooms:3021114")
+	implementation fg.deobf("curse.maven:hanami:3047803")
 }
 
 jar {

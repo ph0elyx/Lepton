@@ -18,7 +18,10 @@ import net.minecraft.block.WallBlock;
 import net.minecraft.block.PressurePlateBlock.Sensitivity;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
+@Mod.EventBusSubscriber(modid = Lepton.MOD_ID, bus = Bus.MOD)
 public class LeptonQuarkBlocks {
 	public static final LeptonRegistryHelper HELPER = Lepton.REGISTRY_HELPER;
 	
