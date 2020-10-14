@@ -156,5 +156,148 @@
 	"block.lepton.elder_prismarine_brick_wall": "Elder Prismarine Brick Wall",
 	"block.lepton.dark_elder_prismarine_wall": "Dark Elder Prismarine Wall",
 	"block.lepton.cut_soul_sandstone_wall": "Cut Soul Sandstone Wall",
-	"block.lepton.smooth_soul_sandstone_wall": "Smooth Soul Sandstone Wall"
+	"block.lepton.smooth_soul_sandstone_wall": "Smooth Soul Sandstone Wall",
+	
+	"block.lepton.cracked_arid_sandstone": "Cracked Arid Sandstone",
+	"block.lepton.cracked_arid_sandstone_slab": "Cracked Arid Sandstone Slab",
+	"block.lepton.cracked_arid_sandstone_stairs": "Cracked Arid Sandstone Stairs",
+	"block.lepton.cracked_arid_sandstone_wall": "Cracked Arid Sandstone Wall",
+	"block.lepton.cracked_arid_sandstone_vertical_slab": "Cracked Arid Sandstone Vertical Slab",
+	
+	"block.lepton.cracked_red_arid_sandstone": "Cracked Red Arid Sandstone",
+	"block.lepton.cracked_red_arid_sandstone_slab": "Cracked Red Arid Sandstone Slab",
+	"block.lepton.cracked_red_arid_sandstone_stairs": "Cracked Red Arid Sandstone Stairs",
+	"block.lepton.cracked_red_arid_sandstone_wall": "Cracked Red Arid Sandstone Wall",
+	"block.lepton.cracked_red_arid_sandstone_vertical_slab": "Cracked Red Arid Sandstone Vertical Slab",
+	
+	"block.lepton.stripped_rosewood_slab": "Stripped Rosewood Slab",
+	"block.lepton.stripped_rosewood_stairs": "Stripped Rosewood Stairs",
+	"block.lepton.stripped_rosewood_wall": "Stripped Rosewood Wall",
+	"block.lepton.stripped_rosewood_vertical_slab": "Stripped Rosewood Vertical Slab",
+	
+	"block.lepton.rosewood_slab": "Rosewood Slab",
+	"block.lepton.rosewood_stairs": "Rosewood Stairs",
+	"block.lepton.rosewood_wall": "Rosewood Wall",
+	"block.lepton.rosewood_vertical_slab": "Rosewood Vertical Slab",
+	
+	"block.lepton.stripped_yucca_wood_slab": "Stripped Yucca Wood Slab",
+	"block.lepton.stripped_yucca_wood_stairs": "Stripped Yucca Wood Stairs",
+	"block.lepton.stripped_yucca_wood_wall": "Stripped Yucca Wood Wall",
+	"block.lepton.stripped_yucca_wood_vertical_slab": "Stripped Yucca Wood Vertical Slab",
+	
+	"block.lepton.yucca_wood_slab": "Yucca Wood Slab",
+	"block.lepton.yucca_wood_stairs": "Yucca Wood Stairs",
+	"block.lepton.yucca_wood_wall": "Yucca Wood Wall",
+	"block.lepton.yucca_wood_vertical_slab": "Yucca Wood Vertical Slab",
+	
+	"block.lepton.stripped_kousa_wood_slab": "Stripped Kousa Wood Slab",
+	"block.lepton.stripped_kousa_wood_stairs": "Stripped Kousa Wood Stairs",
+	"block.lepton.stripped_kousa_wood_wall": "Stripped Kousa Wood Wall",
+	"block.lepton.stripped_kousa_wood_vertical_slab": "Stripped Kousa Wood Vertical Slab",
+	
+	"block.lepton.kousa_wood_slab": "Kousa Wood Slab",
+	"block.lepton.kousa_wood_stairs": "Kousa Wood Stairs",
+	"block.lepton.kousa_wood_wall": "Kousa Wood Wall",
+	"block.lepton.kousa_wood_vertical_slab": "Kousa Wood Vertical Slab",
+	
+	"block.lepton.stripped_aspen_wood_slab": "Stripped Aspen Wood Slab",
+	"block.lepton.stripped_aspen_wood_stairs": "Stripped Aspen Wood Stairs",
+	"block.lepton.stripped_aspen_wood_wall": "Stripped Aspen Wood Wall",
+	"block.lepton.stripped_aspen_wood_vertical_slab": "Stripped Aspen Wood Vertical Slab",
+	
+	"block.lepton.aspen_wood_slab": "Aspen Wood Slab",
+	"block.lepton.aspen_wood_stairs": "Aspen Wood Stairs",
+	"block.lepton.aspen_wood_wall": "Aspen Wood Wall",
+	"block.lepton.aspen_wood_vertical_slab": "Aspen Wood Vertical Slab",
+	
+	"block.lepton.stripped_grimwood_slab": "Stripped Grimwood Slab",
+	"block.lepton.stripped_grimwood_stairs": "Stripped Grimwood Stairs",
+	"block.lepton.stripped_grimwood_wall": "Stripped Grimwood Wall",
+	"block.lepton.stripped_grimwood_vertical_slab": "Stripped Grimwood Vertical Slab",
+	
+	"block.lepton.grimwood_slab": "Grimwood Slab",
+	"block.lepton.grimwood_stairs": "Grimwood Stairs",
+	"block.lepton.grimwood_wall": "Grimwood Wall",
+	"block.lepton.grimwood_vertical_slab": "Grimwood Vertical Slab",
+	
+	"block.lepton.stripped_maple_wood_slab": "Stripped Maple Wood Slab",
+	"block.lepton.stripped_maple_wood_stairs": "Stripped Maple Wood Stairs",
+	"block.lepton.stripped_maple_wood_wall": "Stripped Maple Wood Wall",
+	"block.lepton.stripped_maple_wood_vertical_slab": "Stripped Maple Wood Vertical Slab",
+	
+	"block.lepton.maple_wood_slab": "Maple Wood Slab",
+	"block.lepton.maple_wood_stairs": "Maple Wood Stairs",
+	"block.lepton.maple_wood_wall": "Maple Wood Wall",
+	"block.lepton.maple_wood_vertical_slab": "Maple Wood Vertical Slab",
+	
+	"block.lepton.stripped_poise_wood_slab": "Stripped Poise Wood Slab",
+	"block.lepton.stripped_poise_wood_stairs": "Stripped Poise Wood Stairs",
+	"block.lepton.stripped_poise_wood_wall": "Stripped Poise Wood Wall",
+	"block.lepton.stripped_poise_wood_vertical_slab": "Stripped Poise Wood Vertical Slab",
+	
+	"block.lepton.poise_wood_slab": "Poise Wood Slab",
+	"block.lepton.poise_wood_stairs": "Poise Wood Stairs",
+	"block.lepton.poise_wood_wall": "Poise Wood Wall",
+	"block.lepton.poise_wood_vertical_slab": "Poise Wood Vertical Slab",
+	
+	"block.lepton.stripped_driftwood_slab": "Stripped Driftwood Slab",
+	"block.lepton.stripped_driftwood_stairs": "Stripped Driftwood Stairs",
+	"block.lepton.stripped_driftwood_wall": "Stripped Driftwood Wall",
+	"block.lepton.stripped_driftwood_vertical_slab": "Stripped Driftwood Vertical Slab",
+	
+	"block.lepton.driftwood_slab": "Driftwood Slab",
+	"block.lepton.driftwood_stairs": "Driftwood Stairs",
+	"block.lepton.driftwood_wall": "Driftwood Wall",
+	"block.lepton.driftwood_vertical_slab": "Driftwood Vertical Slab",
+	
+	"block.lepton.stripped_river_wood_slab": "Stripped River Wood Slab",
+	"block.lepton.stripped_river_wood_stairs": "Stripped River Wood Stairs",
+	"block.lepton.stripped_river_wood_wall": "Stripped River Wood Wall",
+	"block.lepton.stripped_river_wood_vertical_slab": "Stripped River Wood Vertical Slab",
+	
+	"block.lepton.river_wood_slab": "River Wood Slab",
+	"block.lepton.river_wood_stairs": "River Wood Stairs",
+	"block.lepton.river_wood_wall": "River Wood Wall",
+	"block.lepton.river_wood_vertical_slab": "River Wood Vertical Slab",
+	
+	"block.lepton.stripped_red_mushroom_hyphae_slab": "Stripped Red Mushroom Hyphae Slab",
+	"block.lepton.stripped_red_mushroom_hyphae_stairs": "Stripped Red Mushroom Hyphae Stairs",
+	"block.lepton.stripped_red_mushroom_hyphae_wall": "Stripped Red Mushroom Hyphae Wall",
+	"block.lepton.stripped_red_mushroom_hyphae_vertical_slab": "Stripped Red Mushroom Hyphae Vertical Slab",
+	
+	"block.lepton.red_mushroom_hyphae_slab": "Red Mushroom Hyphae Slab",
+	"block.lepton.red_mushroom_hyphae_stairs": "Red Mushroom Hyphae Stairs",
+	"block.lepton.red_mushroom_hyphae_wall": "Red Mushroom Hyphae Wall",
+	"block.lepton.red_mushroom_hyphae_vertical_slab": "Red Mushroom Hyphae Vertical Slab",
+	
+	"block.lepton.stripped_brown_mushroom_hyphae_slab": "Stripped Brown Mushroom Hyphae Slab",
+	"block.lepton.stripped_brown_mushroom_hyphae_stairs": "Stripped Brown Mushroom Hyphae Stairs",
+	"block.lepton.stripped_brown_mushroom_hyphae_wall": "Stripped Brown Mushroom Hyphae Wall",
+	"block.lepton.stripped_brown_mushroom_hyphae_vertical_slab": "Stripped Brown Mushroom Hyphae Vertical Slab",
+	
+	"block.lepton.brown_mushroom_hyphae_slab": "Brown Mushroom Hyphae Slab",
+	"block.lepton.brown_mushroom_hyphae_stairs": "Brown Mushroom Hyphae Stairs",
+	"block.lepton.brown_mushroom_hyphae_wall": "Brown Mushroom Hyphae Wall",
+	"block.lepton.brown_mushroom_hyphae_vertical_slab": "Brown Mushroom Hyphae Vertical Slab",
+	
+	"block.lepton.stripped_glowshroom_hyphae_slab": "Stripped Glowshroom Hyphae Slab",
+	"block.lepton.stripped_glowshroom_hyphae_stairs": "Stripped Glowshroom Hyphae Stairs",
+	"block.lepton.stripped_glowshroom_hyphae_wall": "Stripped Glowshroom Hyphae Wall",
+	"block.lepton.stripped_glowshroom_hyphae_vertical_slab": "Stripped Glowshroom Hyphae Vertical Slab",
+	
+	"block.lepton.glowshroom_hyphae_slab": "Glowshroom Hyphae Slab",
+	"block.lepton.glowshroom_hyphae_stairs": "Glowshroom Hyphae Stairs",
+	"block.lepton.glowshroom_hyphae_wall": "Glowshroom Hyphae Wall",
+	"block.lepton.glowshroom_hyphae_vertical_slab": "Glowshroom Hyphae Vertical Slab",
+	
+	"block.lepton.stripped_sakura_wood_slab": "Stripped Sakura Wood Slab",
+	"block.lepton.stripped_sakura_wood_stairs": "Stripped Sakura Wood Stairs",
+	"block.lepton.stripped_sakura_wood_wall": "Stripped Sakura Wood Wall",
+	"block.lepton.stripped_sakura_wood_vertical_slab": "Stripped Sakura Wood Vertical Slab",
+	
+	"block.lepton.sakura_wood_slab": "Sakura Wood Slab",
+	"block.lepton.sakura_wood_stairs": "Sakura Wood Stairs",
+	"block.lepton.sakura_wood_wall": "Sakura Wood Wall",
+	"block.lepton.sakura_wood_vertical_slab": "Sakura Wood Vertical Slab"
+	
 }

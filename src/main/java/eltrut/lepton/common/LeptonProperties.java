@@ -65,6 +65,6 @@ public final class LeptonProperties {
     }
     */
 	
-	public static final Block.Properties STRIPPED_GLOWSHROOM_HYPHAE = /*addLight(Block.Properties.from(Blocks.STRIPPED_OAK_LOG).notSolid(), 14)*/ Block.Properties.from(Blocks.STRIPPED_OAK_LOG);
+	public static final Block.Properties STRIPPED_GLOWSHROOM_HYPHAE = /*addLight(Block.Properties.from(Blocks.STRIPPED_OAK_LOG).notSolid(), 14)*/ Block.Properties.from(Blocks.STRIPPED_OAK_WOOD);
 	public static final Block.Properties GLOWSHROOM_HYPHAE = /*addLight(Block.Properties.from(Blocks.OAK_WOOD).notSolid(),14)*/ Block.Properties.from(Blocks.OAK_WOOD);
 }
