@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "endergetic:block/poise_stem",
+    "top": "endergetic:block/poise_stem",
+    "side": "endergetic:block/poise_stem"
+  }
+}
