@@ -24,6 +24,26 @@
 		"lepton:cracked_nether_brick_slab",
 		"lepton:cracked_polished_blackstone_brick_slab",
 		"lepton:cracked_soul_sandstone_slab",
-		"lepton:biotite_brick_slab"
+		"lepton:biotite_brick_slab",
+		"lepton:cracked_arid_sandstone_slab",
+		"lepton:cracked_red_arid_sandstone_slab",
+		"lepton:stripped_rosewood_slab",
+		"lepton:rosewood_slab",
+		"lepton:stripped_yucca_wood_slab",
+		"lepton:yucca_wood_slab",
+		"lepton:stripped_kousa_wood_slab",
+		"lepton:kousa_wood_slab",
+		"lepton:stripped_aspen_wood_slab",
+		"lepton:aspen_wood_slab",
+		"lepton:stripped_grimwood_slab",
+		"lepton:grimwood_slab",
+		"lepton:stripped_maple_wood_slab",
+		"lepton:maple_wood_slab",
+		"lepton:stripped_poise_wood_slab",
+		"lepton:poise_wood_slab",
+		"lepton:stripped_river_wood_slab",
+		"lepton:river_wood_slab",
+		"lepton:stripped_driftwood_slab",
+		"lepton:driftwood_slab"
 	]
 }

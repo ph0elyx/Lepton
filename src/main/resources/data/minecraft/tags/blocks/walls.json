@@ -50,6 +50,26 @@
 		"lepton:elder_prismarine_brick_wall",
 		"lepton:dark_elder_prismarine_wall",
 		"lepton:cut_soul_sandstone_wall",
-		"lepton:smooth_soul_sandstone_wall"
+		"lepton:smooth_soul_sandstone_wall",
+		"lepton:cracked_arid_sandstone_wall",
+		"lepton:cracked_red_arid_sandstone_wall",
+		"lepton:stripped_rosewood_wall",
+		"lepton:rosewood_wall",
+		"lepton:stripped_yucca_wood_wall",
+		"lepton:yucca_wood_wall",
+		"lepton:stripped_kousa_wood_wall",
+		"lepton:kousa_wood_wall",
+		"lepton:stripped_aspen_wood_wall",
+		"lepton:aspen_wood_wall",
+		"lepton:stripped_grimwood_wall",
+		"lepton:grimwood_wall",
+		"lepton:stripped_maple_wood_wall",
+		"lepton:maple_wood_wall",
+		"lepton:stripped_poise_wood_wall",
+		"lepton:poise_wood_wall",
+		"lepton:stripped_river_wood_wall",
+		"lepton:river_wood_wall",
+		"lepton:stripped_driftwood_wall",
+		"lepton:driftwood_wall"
 	]
 }

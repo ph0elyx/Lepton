@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_side_tall",
   "textures": {
-    "wall": "atmospheric:block/stripped_kousa_wood_log"
+    "wall": "atmospheric:block/stripped_kousa_log"
   }
 }

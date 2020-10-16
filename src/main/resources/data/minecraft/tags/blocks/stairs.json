@@ -28,6 +28,26 @@
 		"lepton:cracked_polished_blackstone_brick_stairs",
 		"lepton:cracked_soul_sandstone_stairs",
 		"lepton:biotite_brick_stairs",
-		"lepton:cut_soul_sandstone_stairs"
+		"lepton:cut_soul_sandstone_stairs",
+		"lepton:cracked_arid_sandstone_stairs",
+		"lepton:cracked_red_arid_sandstone_stairs",
+		"lepton:stripped_rosewood_stairs",
+		"lepton:rosewood_stairs",
+		"lepton:stripped_yucca_wood_stairs",
+		"lepton:yucca_wood_stairs",
+		"lepton:stripped_kousa_wood_stairs",
+		"lepton:kousa_wood_stairs",
+		"lepton:stripped_aspen_wood_stairs",
+		"lepton:aspen_wood_stairs",
+		"lepton:stripped_grimwood_stairs",
+		"lepton:grimwood_stairs",
+		"lepton:stripped_maple_wood_stairs",
+		"lepton:maple_wood_stairs",
+		"lepton:stripped_poise_wood_stairs",
+		"lepton:poise_wood_stairs",
+		"lepton:stripped_river_wood_stairs",
+		"lepton:river_wood_stairs",
+		"lepton:stripped_driftwood_stairs",
+		"lepton:driftwood_stairs"
 	]
 }
