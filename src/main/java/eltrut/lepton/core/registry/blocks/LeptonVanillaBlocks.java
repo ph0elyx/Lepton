@@ -24,7 +24,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
 @Mod.EventBusSubscriber(modid = Lepton.MOD_ID, bus = Bus.MOD)
-public class LeptonBlocks {
+public class LeptonVanillaBlocks {
 	public static final LeptonRegistryHelper HELPER = Lepton.REGISTRY_HELPER;
 	
 	// Cracked Sandstone

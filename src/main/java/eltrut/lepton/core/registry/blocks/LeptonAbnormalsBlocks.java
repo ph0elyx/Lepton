@@ -41,6 +41,14 @@ public class LeptonAbnormalsBlocks {
 	public static final RegistryObject<Block> CRACKED_RED_ARID_SANDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.ATMOSPHERIC, "cracked_red_arid_sandstone_wall", () -> new WallBlock(LeptonProperties.RED_SANDSTONE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> CRACKED_RED_ARID_SANDSTONE_VERTICAL_SLAB = HELPER.createTwoCompatBlock(LeptonMods.ATMOSPHERIC, LeptonMods.QUARK, "cracked_red_arid_sandstone_vertical_slab", () -> new VerticalSlabBlock(LeptonProperties.RED_SANDSTONE), ItemGroup.BUILDING_BLOCKS);
 	
+	public static final RegistryObject<Block> CUT_ARID_SANDSTONE_STAIRS = HELPER.createCompatBlock(LeptonMods.ATMOSPHERIC, "cut_arid_sandstone_stairs", () -> new AbnormalsStairsBlock(Blocks.CUT_SANDSTONE.getDefaultState(), Block.Properties.from(Blocks.CUT_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CUT_RED_ARID_SANDSTONE_STAIRS = HELPER.createCompatBlock(LeptonMods.ATMOSPHERIC, "cut_red_arid_sandstone_stairs", () -> new AbnormalsStairsBlock(Blocks.CUT_RED_SANDSTONE.getDefaultState(), Block.Properties.from(Blocks.CUT_RED_SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
+	
+	public static final RegistryObject<Block> CUT_ARID_SANDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.ATMOSPHERIC, "cut_sandstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.CUT_SANDSTONE)), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> CUT_RED_ARID_SANDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.ATMOSPHERIC, "cut_red_sandstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.CUT_RED_SANDSTONE)), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> SMOOTH_ARID_SANDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.ATMOSPHERIC, "smooth_sandstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.SMOOTH_SANDSTONE)), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> SMOOTH_RED_ARID_SANDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.ATMOSPHERIC, "smooth_red_sandstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.SMOOTH_RED_SANDSTONE)), ItemGroup.DECORATIONS);
+	
 	public static final RegistryObject<Block> STRIPPED_ROSEWOOD_SLAB = HELPER.createCompatBlock(LeptonMods.ATMOSPHERIC, "stripped_rosewood_slab", () -> new StrippedLogSlabBlock(LeptonProperties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> STRIPPED_ROSEWOOD_STAIRS = HELPER.createCompatBlock(LeptonMods.ATMOSPHERIC, "stripped_rosewood_stairs", () -> new StrippedLogStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), LeptonProperties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> STRIPPED_ROSEWOOD_WALL = HELPER.createCompatBlock(LeptonMods.ATMOSPHERIC, "stripped_rosewood_wall", () -> new StrippedLogWallBlock(LeptonProperties.STRIPPED_OAK_WOOD), ItemGroup.DECORATIONS);
