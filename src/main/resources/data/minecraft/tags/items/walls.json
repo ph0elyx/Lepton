@@ -70,6 +70,10 @@
 		"lepton:stripped_river_wood_wall",
 		"lepton:river_wood_wall",
 		"lepton:stripped_driftwood_wall",
-		"lepton:driftwood_wall"
+		"lepton:driftwood_wall",
+		"lepton:cut_arid_sandstone_wall",
+		"lepton:cut_red_arid_sandstone_wall",
+		"lepton:smooth_arid_sandstone_wall",
+		"lepton:smooth_red_arid_sandstone_wall"
 	]
 }
