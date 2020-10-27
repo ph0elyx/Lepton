@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "autumnity:stripped_maple_wood"
+    }
+  },
+  "result": {
+    "item": "lepton:stripped_maple_wood_wall",
+    "count": 6
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "autumnity"
+    }
+  ]
+}

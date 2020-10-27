@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "endergetic:stripped_poise_wood"
+    }
+  },
+  "result": {
+    "item": "lepton:stripped_poise_wood_wall",
+    "count": 6
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "endergetic"
+    }
+  ]
+}

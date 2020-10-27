@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "atmospheric:stripped_aspen_wood"
+    }
+  },
+  "result": {
+    "item": "lepton:stripped_aspen_wood_wall",
+    "count": 6
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "atmospheric"
+    }
+  ]
+}
