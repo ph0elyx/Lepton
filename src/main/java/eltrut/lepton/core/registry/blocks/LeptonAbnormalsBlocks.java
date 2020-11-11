@@ -13,7 +13,7 @@ import eltrut.lepton.common.blocks.StrippedLogStairsBlock;
 import eltrut.lepton.common.blocks.StrippedLogVerticalSlabBlock;
 import eltrut.lepton.common.blocks.StrippedLogWallBlock;
 import eltrut.lepton.core.Lepton;
-import eltrut.lepton.core.compat.LeptonMods;
+import eltrut.lepton.core.other.LeptonMods;
 import eltrut.lepton.core.registry.util.LeptonRegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

@@ -1,4 +1,4 @@
-package eltrut.lepton.core.compat;
+package eltrut.lepton.core.other;
 
 public class LeptonMods {
 	public static final String QUARK = "quark";

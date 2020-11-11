@@ -8,7 +8,7 @@ import eltrut.lepton.common.LeptonProperties;
 import eltrut.lepton.common.blocks.LogVerticalSlabBlock;
 import eltrut.lepton.common.blocks.StrippedLogVerticalSlabBlock;
 import eltrut.lepton.core.Lepton;
-import eltrut.lepton.core.compat.LeptonMods;
+import eltrut.lepton.core.other.LeptonMods;
 import eltrut.lepton.core.registry.util.LeptonRegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
