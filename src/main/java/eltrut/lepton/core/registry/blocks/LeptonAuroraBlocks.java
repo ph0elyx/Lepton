@@ -1,6 +1,5 @@
 package eltrut.lepton.core.registry.blocks;
 
-import eltrut.lepton.common.LeptonProperties;
 import eltrut.lepton.common.blocks.AlphaLogSlabBlock;
 import eltrut.lepton.common.blocks.AlphaLogStairsBlock;
 import eltrut.lepton.common.blocks.AlphaLogVerticalSlabBlock;
@@ -19,6 +18,7 @@ import eltrut.lepton.common.blocks.StrippedLogVerticalSlabBlock;
 import eltrut.lepton.common.blocks.StrippedLogWallBlock;
 import eltrut.lepton.core.Lepton;
 import eltrut.lepton.core.other.LeptonMods;
+import eltrut.lepton.core.other.LeptonProperties;
 import eltrut.lepton.core.registry.util.LeptonRegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

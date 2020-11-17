@@ -1,4 +1,4 @@
-package eltrut.lepton.common;
+package eltrut.lepton.core.other;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

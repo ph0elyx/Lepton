@@ -3,7 +3,6 @@ package eltrut.lepton.core.registry.blocks;
 import com.teamabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 import com.teamabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
 
-import eltrut.lepton.common.LeptonProperties;
 import eltrut.lepton.common.blocks.LogSlabBlock;
 import eltrut.lepton.common.blocks.LogStairsBlock;
 import eltrut.lepton.common.blocks.LogVerticalSlabBlock;
@@ -14,6 +13,7 @@ import eltrut.lepton.common.blocks.StrippedLogVerticalSlabBlock;
 import eltrut.lepton.common.blocks.StrippedLogWallBlock;
 import eltrut.lepton.core.Lepton;
 import eltrut.lepton.core.other.LeptonMods;
+import eltrut.lepton.core.other.LeptonProperties;
 import eltrut.lepton.core.registry.util.LeptonRegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
