@@ -1,14 +1,19 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "quark:biotite_bricks"
-  },
+  "ingredient": [
+	{
+	  "item": "quark:biotite_bricks"
+	},
+	{
+	  "item": "quark:biotite_block"
+	}
+  ],
   "result": "lepton:biotite_brick_wall",
   "count": 1,
   "conditions": [
-    {
-      "type": "abnormals_core:quark_flag",
-      "flag": "biotite"
-    }
+	{
+	  "type": "abnormals_core:quark_flag",
+	  "flag": "biotite"
+	}
   ]
 }
