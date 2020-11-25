@@ -8,5 +8,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
 @Mod.EventBusSubscriber(modid = Lepton.MOD_ID, bus = Bus.MOD)
 public class LeptonItems {
+	
 	public static final RegistryHelper HELPER = Lepton.REGISTRY_HELPER;
+	
 }

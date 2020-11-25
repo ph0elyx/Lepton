@@ -26,6 +26,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
 @Mod.EventBusSubscriber(modid = Lepton.MOD_ID, bus = Bus.MOD)
 public class LeptonAbnormalsBlocks {
+	
 	public static final LeptonRegistryHelper HELPER = Lepton.REGISTRY_HELPER;
 	
 	// Atmospheric
@@ -141,4 +142,5 @@ public class LeptonAbnormalsBlocks {
 	public static final RegistryObject<Block> RIVER_WOOD_STAIRS = HELPER.createCompatBlock(LeptonMods.UPGRADE_AQUATIC, "river_wood_stairs", () -> new LogStairsBlock(STRIPPED_RIVER_WOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), LeptonProperties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> RIVER_WOOD_WALL = HELPER.createCompatBlock(LeptonMods.UPGRADE_AQUATIC, "river_wood_wall", () -> new LogWallBlock(STRIPPED_RIVER_WOOD_WALL, LeptonProperties.RIVER_WOOD), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> RIVER_WOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock(LeptonMods.UPGRADE_AQUATIC, LeptonMods.QUARK, "river_wood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_RIVER_WOOD_VERTICAL_SLAB, LeptonProperties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	
 }

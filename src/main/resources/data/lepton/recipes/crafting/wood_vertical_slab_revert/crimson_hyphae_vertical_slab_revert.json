@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wood_vertical_slab_revert",
+  "ingredients": [
+    {
+      "item": "lepton:crimson_hyphae_vertical_slab"
+    }
+  ],
+  "result": {
+    "item": "lepton:crimson_hyphae_slab",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_slabs"
+    }
+  ]
+}
