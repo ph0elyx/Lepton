@@ -6,6 +6,7 @@ import com.teamabnormals.abnormals_core.core.utils.BlockUtils;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.WallBlock;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ItemStack;
@@ -19,7 +20,7 @@ import net.minecraft.world.World;
 
 //credit to SmellyModder(Luke Tonon)
 
-public class LogWallBlock extends StrippedLogWallBlock {
+public class LogWallBlock extends WallBlock {
 	private final Supplier<Block> block;
 	
 	public LogWallBlock(Supplier<Block> strippedBlock, Properties properties) {

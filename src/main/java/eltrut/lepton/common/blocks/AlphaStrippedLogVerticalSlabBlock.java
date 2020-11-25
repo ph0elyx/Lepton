@@ -1,9 +1,11 @@
 package eltrut.lepton.common.blocks;
 
+import com.teamabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
+
 import net.minecraft.block.BlockState;
 import net.minecraft.util.Direction;
 
-public class AlphaStrippedLogVerticalSlabBlock extends StrippedLogVerticalSlabBlock {
+public class AlphaStrippedLogVerticalSlabBlock extends VerticalSlabBlock {
 
 	public AlphaStrippedLogVerticalSlabBlock(Properties properties) {
 		super(properties);

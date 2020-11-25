@@ -2,6 +2,7 @@ package eltrut.lepton.common.blocks;
 
 import java.util.function.Supplier;
 
+import com.teamabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 import com.teamabnormals.abnormals_core.core.utils.BlockUtils;
 
 import net.minecraft.block.Block;
@@ -19,7 +20,7 @@ import net.minecraft.world.World;
 
 //credit to SmellyModder(Luke Tonon)
 
-public class LogStairsBlock extends StrippedLogStairsBlock {
+public class LogStairsBlock extends AbnormalsStairsBlock {
 	private final Supplier<Block> block;
 
 	public LogStairsBlock(Supplier<Block> strippedBlock, BlockState state, Properties properties) {

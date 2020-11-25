@@ -1,9 +1,10 @@
 package eltrut.lepton.common.blocks;
 
 import net.minecraft.block.BlockState;
+import net.minecraft.block.WallBlock;
 import net.minecraft.util.Direction;
 
-public class AlphaStrippedLogWallBlock extends StrippedLogWallBlock {
+public class AlphaStrippedLogWallBlock extends WallBlock {
 	public AlphaStrippedLogWallBlock(Properties properties) {
 		super(properties);
 	}
