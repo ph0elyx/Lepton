@@ -1,34 +1,15 @@
 package eltrut.lepton.core.registry.blocks;
 
-import eltrut.lepton.common.blocks.AlphaLogSlabBlock;
-import eltrut.lepton.common.blocks.AlphaLogStairsBlock;
-import eltrut.lepton.common.blocks.AlphaLogVerticalSlabBlock;
-import eltrut.lepton.common.blocks.AlphaLogWallBlock;
-import eltrut.lepton.common.blocks.AlphaStrippedLogSlabBlock;
-import eltrut.lepton.common.blocks.AlphaStrippedLogStairsBlock;
-import eltrut.lepton.common.blocks.AlphaStrippedLogVerticalSlabBlock;
-import eltrut.lepton.common.blocks.AlphaStrippedLogWallBlock;
-import eltrut.lepton.common.blocks.LogSlabBlock;
-import eltrut.lepton.common.blocks.LogStairsBlock;
-import eltrut.lepton.common.blocks.LogVerticalSlabBlock;
-import eltrut.lepton.common.blocks.LogWallBlock;
-import eltrut.lepton.common.blocks.StrippedLogSlabBlock;
-import eltrut.lepton.common.blocks.StrippedLogStairsBlock;
-import eltrut.lepton.common.blocks.StrippedLogVerticalSlabBlock;
-import eltrut.lepton.common.blocks.StrippedLogWallBlock;
 import eltrut.lepton.core.Lepton;
-import eltrut.lepton.core.other.LeptonMods;
-import eltrut.lepton.core.other.LeptonProperties;
 import eltrut.lepton.core.registry.util.LeptonRegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.item.ItemGroup;
-import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
 @Mod.EventBusSubscriber(modid = Lepton.MOD_ID, bus = Bus.MOD)
 public class LeptonAuroraBlocks {
+	
 	public static final LeptonRegistryHelper HELPER = Lepton.REGISTRY_HELPER;
 	
 	// Enhanced Mushrooms
@@ -72,4 +53,17 @@ public class LeptonAuroraBlocks {
 //	public static final RegistryObject<Block> SAKURA_WOOD_STAIRS = HELPER.createCompatBlock(LeptonMods.HANAMI, "sakura_wood_stairs", () -> new LogStairsBlock(STRIPPED_SAKURA_WOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), LeptonProperties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
 //	public static final RegistryObject<Block> SAKURA_WOOD_WALL = HELPER.createCompatBlock(LeptonMods.HANAMI, "sakura_wood_wall", () -> new LogWallBlock(STRIPPED_SAKURA_WOOD_WALL, LeptonProperties.OAK_WOOD), ItemGroup.DECORATIONS);
 //	public static final RegistryObject<Block> SAKURA_WOOD_VERTICAL_SLAB = HELPER.createTwoCompatBlock(LeptonMods.HANAMI, LeptonMods.QUARK, "sakura_wood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_SAKURA_WOOD_VERTICAL_SLAB, LeptonProperties.OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
+
+	public static class Properties {
+		
+		/*
+		private static Block.Properties addLight(Block.Properties properties, int lightValue) {
+	        return properties.func_235838_a_((p_235464_0_) -> {return lightValue;});
+	    }
+	    */
+		
+		public static final Block.Properties STRIPPED_GLOWSHROOM_HYPHAE = /*addLight(Block.Properties.from(Blocks.STRIPPED_OAK_LOG).notSolid(), 14)*/ Block.Properties.from(Blocks.STRIPPED_OAK_WOOD);
+		public static final Block.Properties GLOWSHROOM_HYPHAE = /*addLight(Block.Properties.from(Blocks.OAK_WOOD).notSolid(),14)*/ Block.Properties.from(Blocks.OAK_WOOD);
+		
+	}
 }
