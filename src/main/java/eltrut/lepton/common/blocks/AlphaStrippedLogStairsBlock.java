@@ -1,6 +1,6 @@
 package eltrut.lepton.common.blocks;
 
-import com.teamabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.util.Direction;

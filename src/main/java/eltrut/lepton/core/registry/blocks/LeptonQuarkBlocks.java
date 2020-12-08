@@ -1,13 +1,13 @@
 package eltrut.lepton.core.registry.blocks;
 
-import com.teamabnormals.abnormals_core.common.blocks.AbnormalsPressurePlateBlock;
-import com.teamabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
-import com.teamabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsPressurePlateBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
+import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
 
 import eltrut.lepton.common.blocks.LogVerticalSlabBlock;
 import eltrut.lepton.core.Lepton;
 import eltrut.lepton.core.other.LeptonMods;
-import eltrut.lepton.core.registry.util.LeptonRegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.PressurePlateBlock.Sensitivity;
@@ -26,7 +26,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 @Mod.EventBusSubscriber(modid = Lepton.MOD_ID, bus = Bus.MOD)
 public class LeptonQuarkBlocks {
 	
-	public static final LeptonRegistryHelper HELPER = Lepton.REGISTRY_HELPER;
+	public static final BlockSubRegistryHelper HELPER = Lepton.REGISTRY_HELPER.getBlockSubHelper();
 	
 	// Cracked Soul Sandstone
 	public static final RegistryObject<Block> CRACKED_SOUL_SANDSTONE = HELPER.createCompatBlock(LeptonMods.QUARK, "cracked_soul_sandstone", () -> new Block(Properties.SOUL_SANDSTONE), ItemGroup.BUILDING_BLOCKS);

@@ -1,7 +1,8 @@
 package eltrut.lepton.core.registry.blocks;
 
+import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
+
 import eltrut.lepton.core.Lepton;
-import eltrut.lepton.core.registry.util.LeptonRegistryHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.fml.common.Mod;
@@ -10,7 +11,7 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 @Mod.EventBusSubscriber(modid = Lepton.MOD_ID, bus = Bus.MOD)
 public class LeptonAuroraBlocks {
 	
-	public static final LeptonRegistryHelper HELPER = Lepton.REGISTRY_HELPER;
+	public static final BlockSubRegistryHelper HELPER = Lepton.REGISTRY_HELPER.getBlockSubHelper();
 	
 	// Enhanced Mushrooms
 //	public static final RegistryObject<Block> STRIPPED_RED_MUSHROOM_HYPHAE_SLAB = HELPER.createCompatBlock(LeptonMods.ENHANCED_MUSHROOMS, "stripped_red_mushroom_hyphae_slab", () -> new StrippedLogSlabBlock(LeptonProperties.STRIPPED_OAK_WOOD), ItemGroup.BUILDING_BLOCKS);
