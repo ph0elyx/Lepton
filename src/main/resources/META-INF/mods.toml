@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[35,)"
+loaderVersion="[34,)"
 license="CC BY-NC-SA 3.0 Unported"
 issueTrackerURL="https://github.com/EltrutLikes/Lepton/issues"
 [[mods]]
 modId="lepton"
-version="1.2.0"
+version="1.2.1"
 displayName="Lepton"
 logoFile="examplemod.png"
 credits="You for downloading it of course"
@@ -15,14 +15,14 @@ Smallest things.
 [[dependencies.lepton]]
     modId="forge"
     mandatory=true
-    versionRange="[35,)"
+    versionRange="[34,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.lepton]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.4]"
+    versionRange="[1.16.3, 1.17)"
     ordering="NONE"
     side="BOTH"
 
