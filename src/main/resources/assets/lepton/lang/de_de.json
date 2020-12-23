@@ -7,6 +7,7 @@
 	"block.lepton.polished_jasper_button": "Polierter Jaspisknopf",
 	"block.lepton.polished_slate_button": "Polierter Schieferknopf",
 	"block.lepton.polished_voidstone_button": "Polierter Leerensteinknopf",
+	"block.lepton.polished_myalite_button": "Polierter Myalitknopf",
 	
 	"block.lepton.polished_andesite_pressure_plate": "Polierte Andesitdruckplatte",
 	"block.lepton.polished_diorite_pressure_plate": "Polierte Dioritdruckplatte",
@@ -16,6 +17,7 @@
 	"block.lepton.polished_jasper_pressure_plate": "Polierte Jaspisdruckplatte",
 	"block.lepton.polished_slate_pressure_plate": "Polierte Schieferdruckplatte",
 	"block.lepton.polished_voidstone_pressure_plate": "Polierte Leerensteindruckplatte",
+	"block.lepton.polished_myalite_pressure_plate": "Polierte Myalitdruckplatte",
 	
 	"block.lepton.cracked_sandstone": "Rissiger Sandstein",
 	"block.lepton.cracked_red_sandstone": "Rissiger roter Sandstein",
@@ -153,6 +155,7 @@
 	"block.lepton.polished_jasper_wall": "Polished Jasper Wall",
 	"block.lepton.polished_slate_wall": "Polished Slate Wall",
 	"block.lepton.polished_voidstone_wall": "Polished Voidstone Wall",
+	"block.lepton.polished_myalite_wall": "Polished Myalite Wall",
 	"block.lepton.elder_prismarine_brick_wall": "Elder Prismarine Brick Wall",
 	"block.lepton.dark_elder_prismarine_wall": "Dark Elder Prismarine Wall",
 	"block.lepton.cut_soul_sandstone_wall": "Cut Soul Sandstone Wall",

@@ -6,6 +6,9 @@ import com.minecraftabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
 import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
 
 import eltrut.lepton.common.blocks.LogVerticalSlabBlock;
+import eltrut.lepton.common.blocks.MyaliteButtonBlock;
+import eltrut.lepton.common.blocks.MyalitePressurePlateBlock;
+import eltrut.lepton.common.blocks.MyaliteWallBlock;
 import eltrut.lepton.core.Lepton;
 import eltrut.lepton.core.other.LeptonMods;
 import net.minecraft.block.Block;
@@ -50,6 +53,7 @@ public class LeptonQuarkBlocks {
 	public static final RegistryObject<Block> POLISHED_JASPER_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_jasper_wall", () -> new WallBlock(Properties.JASPER), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> POLISHED_SLATE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_slate_wall", () -> new WallBlock(Properties.SLATE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> POLISHED_VOIDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_voidstone_wall", () -> new WallBlock(Properties.VOIDSTONE), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> POLISHED_MYALITE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_myalite_wall", () -> new MyaliteWallBlock(Properties.MYALITE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> ELDER_PRISMARINE_BRICK_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "elder_prismarine_brick_wall", () -> new WallBlock(Properties.ELDER_PRISMARINE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> DARK_ELDER_PRISMARINE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "dark_elder_prismarine_wall", () -> new WallBlock(Properties.ELDER_PRISMARINE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> CUT_SOUL_SANDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "cut_soul_sandstone_wall", () -> new WallBlock(Properties.SOUL_SANDSTONE), ItemGroup.DECORATIONS);
@@ -92,6 +96,7 @@ public class LeptonQuarkBlocks {
 	public static final RegistryObject<Block> POLISHED_JASPER_BUTTON = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_jasper_button", () -> new StoneButtonBlock(LeptonVanillaBlocks.Properties.BUTTON), ItemGroup.REDSTONE);
 	public static final RegistryObject<Block> POLISHED_SLATE_BUTTON = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_slate_button", () -> new StoneButtonBlock(LeptonVanillaBlocks.Properties.BUTTON), ItemGroup.REDSTONE);
 	public static final RegistryObject<Block> POLISHED_VOIDSTONE_BUTTON = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_voidstone_button", () -> new StoneButtonBlock(LeptonVanillaBlocks.Properties.BUTTON), ItemGroup.REDSTONE);	
+	public static final RegistryObject<Block> POLISHED_MYALITE_BUTTON = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_myalite_button", () -> new MyaliteButtonBlock(LeptonVanillaBlocks.Properties.BUTTON), ItemGroup.REDSTONE);
 	
 	// Quark Pressure Plates
 	public static final RegistryObject<Block> POLISHED_MARBLE_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_marble_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.MARBLE_PRESSURE_PLATE), ItemGroup.REDSTONE);
@@ -99,6 +104,7 @@ public class LeptonQuarkBlocks {
 	public static final RegistryObject<Block> POLISHED_JASPER_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_jasper_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.JASPER_PRESSURE_PLATE), ItemGroup.REDSTONE);
 	public static final RegistryObject<Block> POLISHED_SLATE_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_slate_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.SLATE_PRESSURE_PLATE), ItemGroup.REDSTONE);
 	public static final RegistryObject<Block> POLISHED_VOIDSTONE_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_voidstone_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.VOIDSTONE_PRESSURE_PLATE), ItemGroup.REDSTONE);
+	public static final RegistryObject<Block> POLISHED_MYALITE_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_myalite_pressure_plate", () -> new MyalitePressurePlateBlock(Sensitivity.MOBS, Properties.MYALITE_PRESSURE_PLATE), ItemGroup.REDSTONE);
 	
 	public static class Properties {
 		
@@ -111,6 +117,7 @@ public class LeptonQuarkBlocks {
 		public static final Block.Properties JASPER = Block.Properties.create(Material.ROCK, MaterialColor.RED_TERRACOTTA).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 6.0F);
 		public static final Block.Properties SLATE = Block.Properties.create(Material.ROCK, MaterialColor.ICE).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 6.0F);
 		public static final Block.Properties VOIDSTONE = Block.Properties.create(Material.ROCK, MaterialColor.BLACK).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 6.0F);
+		public static final Block.Properties MYALITE = Block.Properties.create(Material.ROCK, MaterialColor.PURPLE).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 6.0F);
 		public static final Block.Properties ELDER_PRISMARINE = Block.Properties.create(Material.ROCK, MaterialColor.ADOBE).setRequiresTool().harvestTool(ToolType.PICKAXE).hardnessAndResistance(1.5F, 10F).sound(SoundType.STONE);
 		
 		public static final Block.Properties MARBLE_PRESSURE_PLATE = Block.Properties.create(Material.ROCK, MaterialColor.QUARTZ).setRequiresTool().doesNotBlockMovement().hardnessAndResistance(0.5F);
@@ -118,6 +125,7 @@ public class LeptonQuarkBlocks {
 		public static final Block.Properties JASPER_PRESSURE_PLATE = Block.Properties.create(Material.ROCK, MaterialColor.RED_TERRACOTTA).setRequiresTool().doesNotBlockMovement().hardnessAndResistance(0.5F);
 		public static final Block.Properties SLATE_PRESSURE_PLATE = Block.Properties.create(Material.ROCK, MaterialColor.ICE).setRequiresTool().doesNotBlockMovement().hardnessAndResistance(0.5F);
 		public static final Block.Properties VOIDSTONE_PRESSURE_PLATE = Block.Properties.create(Material.ROCK, MaterialColor.BLACK).setRequiresTool().doesNotBlockMovement().hardnessAndResistance(0.5F);
+		public static final Block.Properties MYALITE_PRESSURE_PLATE = Block.Properties.create(Material.ROCK, MaterialColor.PURPLE).setRequiresTool().doesNotBlockMovement().hardnessAndResistance(0.5F);
 		
 	}
 	

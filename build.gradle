@@ -72,8 +72,8 @@ dependencies {
 	minecraft "net.minecraftforge:forge:${project.mc_version}-${project.forge_version}"
 	
 	implementation fg.deobf("curse.maven:abnormals-core-382216:${ac_id}")
-	//implementation fg.deobf("curse.maven:autoreglib:${arl_id}")
-	//implementation fg.deobf("curse.maven:quark:${quark_id}")
+	implementation fg.deobf("curse.maven:autoreglib-250363:${arl_id}")
+	implementation fg.deobf("curse.maven:quark-243121:${quark_id}")
 	
 	//implementation fg.deobf("curse.maven:atmospheric:${atmospheric_id}")
 	//implementation fg.deobf("curse.maven:autumnity:${autumnity_id}")
