@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quark:polished_slate"
+    }
+  ],
+  "result": {
+    "item": "lepton:polished_slate_button"
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "slate"
+    }
+  ]
+}

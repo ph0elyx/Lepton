@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "lepton:biotite_brick_slab"
+    }
+  },
+  "result": {
+    "item": "lepton:biotite_brick_vertical_slab",
+    "count": 3
+  },
+  "conditions": [
+	{
+      "type": "forge:and",
+      "values": [
+		{
+			"type": "abnormals_core:quark_flag",
+			"flag": "vertical_slabs"
+		},
+        {
+			"type": "abnormals_core:quark_flag",
+			"flag": "biotite"
+        }
+      ]
+    }
+  ]
+}

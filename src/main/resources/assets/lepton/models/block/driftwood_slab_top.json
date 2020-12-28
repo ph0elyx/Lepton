@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "upgrade_aquatic:block/driftwood_log",
+    "top": "upgrade_aquatic:block/driftwood_log",
+    "side": "upgrade_aquatic:block/driftwood_log"
+  }
+}

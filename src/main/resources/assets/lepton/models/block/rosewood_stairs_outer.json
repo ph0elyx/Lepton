@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "atmospheric:block/rosewood_log",
+        "top": "atmospheric:block/rosewood_log",
+        "side": "atmospheric:block/rosewood_log"
+    }
+}

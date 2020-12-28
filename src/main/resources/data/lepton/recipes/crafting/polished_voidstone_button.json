@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quark:polished_basalt"
+    }
+  ],
+  "result": {
+    "item": "lepton:polished_voidstone_button"
+  },
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "basalt"
+    }
+  ]
+}
