@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/wall_inventory",
+    "textures": {
+        "wall": "enhanced_mushrooms:block/stripped_red_mushroom_stem"
+    }
+}
