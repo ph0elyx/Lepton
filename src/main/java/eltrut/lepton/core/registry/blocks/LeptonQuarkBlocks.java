@@ -6,9 +6,6 @@ import com.minecraftabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
 import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
 
 import eltrut.lepton.common.blocks.LogVerticalSlabBlock;
-import eltrut.lepton.common.blocks.MyaliteButtonBlock;
-import eltrut.lepton.common.blocks.MyalitePressurePlateBlock;
-import eltrut.lepton.common.blocks.MyaliteWallBlock;
 import eltrut.lepton.core.Lepton;
 import eltrut.lepton.core.other.LeptonMods;
 import net.minecraft.block.Block;
@@ -53,7 +50,7 @@ public class LeptonQuarkBlocks {
 	public static final RegistryObject<Block> POLISHED_JASPER_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_jasper_wall", () -> new WallBlock(Properties.JASPER), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> POLISHED_SLATE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_slate_wall", () -> new WallBlock(Properties.SLATE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> POLISHED_VOIDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_voidstone_wall", () -> new WallBlock(Properties.VOIDSTONE), ItemGroup.DECORATIONS);
-	public static final RegistryObject<Block> POLISHED_MYALITE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_myalite_wall", () -> new MyaliteWallBlock(Properties.MYALITE), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> POLISHED_MYALITE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_myalite_wall", () -> new WallBlock(Properties.MYALITE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> ELDER_PRISMARINE_BRICK_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "elder_prismarine_brick_wall", () -> new WallBlock(Properties.ELDER_PRISMARINE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> DARK_ELDER_PRISMARINE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "dark_elder_prismarine_wall", () -> new WallBlock(Properties.ELDER_PRISMARINE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> CUT_SOUL_SANDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.QUARK, "cut_soul_sandstone_wall", () -> new WallBlock(Properties.SOUL_SANDSTONE), ItemGroup.DECORATIONS);
@@ -96,7 +93,7 @@ public class LeptonQuarkBlocks {
 	public static final RegistryObject<Block> POLISHED_JASPER_BUTTON = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_jasper_button", () -> new StoneButtonBlock(LeptonVanillaBlocks.Properties.BUTTON), ItemGroup.REDSTONE);
 	public static final RegistryObject<Block> POLISHED_SLATE_BUTTON = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_slate_button", () -> new StoneButtonBlock(LeptonVanillaBlocks.Properties.BUTTON), ItemGroup.REDSTONE);
 	public static final RegistryObject<Block> POLISHED_VOIDSTONE_BUTTON = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_voidstone_button", () -> new StoneButtonBlock(LeptonVanillaBlocks.Properties.BUTTON), ItemGroup.REDSTONE);	
-	public static final RegistryObject<Block> POLISHED_MYALITE_BUTTON = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_myalite_button", () -> new MyaliteButtonBlock(LeptonVanillaBlocks.Properties.BUTTON), ItemGroup.REDSTONE);
+	public static final RegistryObject<Block> POLISHED_MYALITE_BUTTON = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_myalite_button", () -> new StoneButtonBlock(LeptonVanillaBlocks.Properties.BUTTON), ItemGroup.REDSTONE);
 	
 	// Quark Pressure Plates
 	public static final RegistryObject<Block> POLISHED_MARBLE_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_marble_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.MARBLE_PRESSURE_PLATE), ItemGroup.REDSTONE);
@@ -104,7 +101,7 @@ public class LeptonQuarkBlocks {
 	public static final RegistryObject<Block> POLISHED_JASPER_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_jasper_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.JASPER_PRESSURE_PLATE), ItemGroup.REDSTONE);
 	public static final RegistryObject<Block> POLISHED_SLATE_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_slate_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.SLATE_PRESSURE_PLATE), ItemGroup.REDSTONE);
 	public static final RegistryObject<Block> POLISHED_VOIDSTONE_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_voidstone_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.VOIDSTONE_PRESSURE_PLATE), ItemGroup.REDSTONE);
-	public static final RegistryObject<Block> POLISHED_MYALITE_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_myalite_pressure_plate", () -> new MyalitePressurePlateBlock(Sensitivity.MOBS, Properties.MYALITE_PRESSURE_PLATE), ItemGroup.REDSTONE);
+	public static final RegistryObject<Block> POLISHED_MYALITE_PRESSURE_PLATE = HELPER.createCompatBlock(LeptonMods.QUARK, "polished_myalite_pressure_plate", () -> new AbnormalsPressurePlateBlock(Sensitivity.MOBS, Properties.MYALITE_PRESSURE_PLATE), ItemGroup.REDSTONE);
 	
 	public static class Properties {
 		

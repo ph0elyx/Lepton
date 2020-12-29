@@ -1,4 +1,4 @@
-package eltrut.lepton.common.blocks.util;
+package eltrut.lepton.client;
 
 import java.awt.Color;
 import java.util.stream.IntStream;
@@ -15,12 +15,14 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 // Credit to Vazkii
-public interface IMyaliteColorProvider {
-	static final PerlinNoiseGenerator NOISE = new PerlinNoiseGenerator(new SharedSeedRandom(4543543), IntStream.rangeClosed(-4, 4));
+public class MyaliteColorProvider {
+	public static final float myaliteS = 0.7F;
+	public static final float myaliteB = 0.8F;
+	public static final PerlinNoiseGenerator NOISE = new PerlinNoiseGenerator(new SharedSeedRandom(4543543), IntStream.rangeClosed(-4, 4));
 	
     @OnlyIn(Dist.CLIENT)
 	public static IBlockColor getBlockColor() {
-		return (state, world, pos, tintIndex) -> getColor(pos, myaliteS(), myaliteB());
+		return (state, world, pos, tintIndex) -> getColor(pos, myaliteS, myaliteB);
 	}
 	
     @OnlyIn(Dist.CLIENT)
@@ -28,19 +30,16 @@ public interface IMyaliteColorProvider {
 		return (stack, tintIndex) -> {
 			Minecraft mc = Minecraft.getInstance();
 			if(mc.player == null)
-				return getColor(BlockPos.ZERO, myaliteS(), myaliteB());
+				return getColor(BlockPos.ZERO, myaliteS, myaliteB);
 			
 			BlockPos pos = mc.player.getPosition();
 			RayTraceResult res = mc.objectMouseOver;
 			if(res != null && res instanceof BlockRayTraceResult)
 				pos = ((BlockRayTraceResult) res).getPos();
 			
-			return getColor(pos, myaliteS(), myaliteB());
+			return getColor(pos, myaliteS, myaliteB);
 		};
 	}
-	
-	static float myaliteS() { return 0.7F; }
-	static float myaliteB() { return 0.8F; }
 	
 	public static int getColor(BlockPos pos, float s, float b) {
 		final double sp = 0.15;
