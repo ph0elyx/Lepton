@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "hanami:block/sakura_log",
+        "top": "hanami:block/sakura_log",
+        "side": "hanami:block/sakura_log"
+    }
+}
