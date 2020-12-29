@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/wall_inventory",
+    "parent": "lepton:block/wall_inventory_tinted",
     "textures": {
         "wall": "quark:block/polished_myalite"
     }

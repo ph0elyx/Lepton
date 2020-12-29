@@ -19,12 +19,12 @@ public interface IMyaliteColorProvider {
 	static final PerlinNoiseGenerator NOISE = new PerlinNoiseGenerator(new SharedSeedRandom(4543543), IntStream.rangeClosed(-4, 4));
 	
     @OnlyIn(Dist.CLIENT)
-	public default IBlockColor getBlockColor() {
+	public static IBlockColor getBlockColor() {
 		return (state, world, pos, tintIndex) -> getColor(pos, myaliteS(), myaliteB());
 	}
 	
     @OnlyIn(Dist.CLIENT)
-	public default IItemColor getItemColor() {
+	public static IItemColor getItemColor() {
 		return (stack, tintIndex) -> {
 			Minecraft mc = Minecraft.getInstance();
 			if(mc.player == null)
@@ -39,8 +39,8 @@ public interface IMyaliteColorProvider {
 		};
 	}
 	
-	default float myaliteS() { return 0.7F; }
-	default float myaliteB() { return 0.8F; }
+	static float myaliteS() { return 0.7F; }
+	static float myaliteB() { return 0.8F; }
 	
 	public static int getColor(BlockPos pos, float s, float b) {
 		final double sp = 0.15;

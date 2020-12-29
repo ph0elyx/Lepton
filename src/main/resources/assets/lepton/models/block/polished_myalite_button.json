@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/button",
+  "parent": "lepton:block/button_tinted",
   "textures": {
     "texture": "quark:block/polished_myalite"
   }

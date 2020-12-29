@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/button_inventory",
+  "parent": "lepton:block/button_inventory_tinted",
   "textures": {
     "texture": "quark:block/polished_myalite"
   }
