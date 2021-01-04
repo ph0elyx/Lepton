@@ -80,8 +80,7 @@ dependencies {
 	implementation fg.deobf("curse.maven:endergetic-291509:${endergetic_id}")
 	implementation fg.deobf("curse.maven:upgrade_aquatic-326895:${ua_id}")
 	
-	//implementation fg.deobf("curse.maven:enhanced_mushrooms:${em_id}")
-	//implementation fg.deobf("curse.maven:hanami:${hanami_id}")
+	implementation fg.deobf("curse.maven:enhanced_mushrooms-383725:${em_id}")
 }
 
 repositories {
