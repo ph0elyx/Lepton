@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "hanami:block/stripped_sakura_log",
-    "top": "hanami:block/stripped_sakura_log",
-    "side": "hanami:block/stripped_sakura_log"
-  }
-}
