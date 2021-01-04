@@ -2,7 +2,7 @@ package eltrut.lepton.common.blocks;
 
 import java.util.function.Supplier;
 
-import com.teamabnormals.abnormals_core.core.utils.BlockUtils;
+import com.minecraftabnormals.abnormals_core.core.util.BlockUtil;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -34,7 +34,7 @@ public class LogWallBlock extends WallBlock {
 		if (stack.getItem() instanceof AxeItem) {
 			world.playSound(player, pos, SoundEvents.ITEM_AXE_STRIP, SoundCategory.BLOCKS, 1.0F, 1.0F);
 			if (!world.isRemote) {
-				world.setBlockState(pos, BlockUtils.transferAllBlockStates(state, this.block.get().getDefaultState()));
+				world.setBlockState(pos, BlockUtil.transferAllBlockStates(state, this.block.get().getDefaultState()));
 				stack.damageItem(1, player, (playerIn) -> {
 					playerIn.sendBreakAnimation(hand);
 				});

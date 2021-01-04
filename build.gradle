@@ -9,10 +9,6 @@ buildscript {
     }
 }
 
-plugins {
-    id "com.wynprice.cursemaven" version "2.1.1"
-}
-
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
@@ -24,7 +20,7 @@ archivesBaseName = 'lepton'
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
 minecraft {
-    mappings channel: 'snapshot', version: '20200723-1.16.1'
+    mappings channel: "${project.mappingsChannel}", version: "${project.mappings}"
     runs {
         client {
             workingDirectory project.file('run')
@@ -73,19 +69,25 @@ minecraft {
 }
 
 dependencies {
-	minecraft 'net.minecraftforge:forge:1.16.1-32.0.108'
+	minecraft "net.minecraftforge:forge:${project.mc_version}-${project.forge_version}"
 	
-	implementation fg.deobf("curse.maven:abnormals-core:${ac_id}")
-	implementation fg.deobf("curse.maven:autoreglib:${arl_id}")
-	implementation fg.deobf("curse.maven:quark:${quark_id}")
+	implementation fg.deobf("curse.maven:abnormals-core-382216:${ac_id}")
+	implementation fg.deobf("curse.maven:autoreglib-250363:${arl_id}")
+	implementation fg.deobf("curse.maven:quark-243121:${quark_id}")
 	
-	implementation fg.deobf("curse.maven:atmospheric:${atmospheric_id}")
-	implementation fg.deobf("curse.maven:autumnity:${autumnity_id}")
-	implementation fg.deobf("curse.maven:endergetic:${endergetic_id}")
-	implementation fg.deobf("curse.maven:upgrade_aquatic:${ua_id}")
+	implementation fg.deobf("curse.maven:atmospheric-362393:${atmospheric_id}")
+	implementation fg.deobf("curse.maven:autumnity-365045:${autumnity_id}")
+	implementation fg.deobf("curse.maven:endergetic-291509:${endergetic_id}")
+	implementation fg.deobf("curse.maven:upgrade_aquatic-326895:${ua_id}")
 	
-	implementation fg.deobf("curse.maven:enhanced_mushrooms:${em_id}")
-	implementation fg.deobf("curse.maven:hanami:${hanami_id}")
+	//implementation fg.deobf("curse.maven:enhanced_mushrooms:${em_id}")
+	//implementation fg.deobf("curse.maven:hanami:${hanami_id}")
+}
+
+repositories {
+    maven {
+        url "https://www.cursemaven.com"
+    }
 }
 
 jar {

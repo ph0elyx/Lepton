@@ -1,0 +1,6 @@
+{
+  "parent": "lepton:block/pressure_plate_down_tinted",
+  "textures": {
+    "texture": "quark:block/polished_myalite"
+  }
+}
