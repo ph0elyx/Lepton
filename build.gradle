@@ -14,7 +14,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = "${mc_version}-${mod_version}"
-group = 'eltrut.lepton' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = 'eltrut.lepton'
 archivesBaseName = 'lepton'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
@@ -78,9 +78,8 @@ dependencies {
 	implementation fg.deobf("curse.maven:atmospheric-362393:${atmospheric_id}")
 	implementation fg.deobf("curse.maven:autumnity-365045:${autumnity_id}")
 	implementation fg.deobf("curse.maven:endergetic-291509:${endergetic_id}")
-	implementation fg.deobf("curse.maven:upgrade_aquatic-326895:${ua_id}")
-	
-	implementation fg.deobf("curse.maven:enhanced_mushrooms-383725:${em_id}")
+	implementation fg.deobf("curse.maven:upgrade-aquatic-326895:${ua_id}")
+	//implementation fg.deobf("curse.maven:enhanced-mushrooms-383725:${em_id}")
 }
 
 repositories {

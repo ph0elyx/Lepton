@@ -2,7 +2,7 @@ package eltrut.lepton.common.blocks;
 
 import java.util.Random;
 
-import com.teamabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.particles.ParticleTypes;
