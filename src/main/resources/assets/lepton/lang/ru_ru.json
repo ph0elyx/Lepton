@@ -7,7 +7,7 @@
 	"block.lepton.polished_jasper_button": "Кнопка из полированной яшмы",
 	"block.lepton.polished_slate_button": "Кнопка из полированного сланца",
 	"block.lepton.polished_voidstone_button": "Кнопка из полированного камня пустоты",
-	
+
 	"block.lepton.polished_andesite_pressure_plate": "Нажимная пластина из полированного андезита",
 	"block.lepton.polished_diorite_pressure_plate": "Нажимная пластина из полированного диорита",
 	"block.lepton.polished_granite_pressure_plate": "Нажимная пластина из полированного гранита",
@@ -16,7 +16,7 @@
 	"block.lepton.polished_jasper_pressure_plate": "Нажимная пластина из полированной яшмы",
 	"block.lepton.polished_slate_pressure_plate": "Нажимная пластина из полированного сланца",
 	"block.lepton.polished_voidstone_pressure_plate": "Нажимная пластина из полированного камня пустоты",
-	
+
 	"block.lepton.cracked_sandstone": "Потрескавшийся песчаник",
 	"block.lepton.cracked_red_sandstone": "Потрескавшийся красный песчаник",
 	"block.lepton.cracked_soul_sandstone": "Потрескавшийся песчаник душ",
@@ -32,7 +32,7 @@
 	"block.lepton.cracked_sandstone_vertical_slab": "Вертикальная плита из потрескавшегося песчаника",
 	"block.lepton.cracked_red_sandstone_vertical_slab": "Вертикальная плита из потрескавшегося красного песчаника",
 	"block.lepton.cracked_soul_sandstone_vertical_slab": "Вертикальная плита из потрескавшегося песчаника душ",
-	
+
 	"block.lepton.acacia_wood_slab": "Плита из акациевой древесины",
 	"block.lepton.birch_wood_slab": "Плита из берёзовой древесины",
 	"block.lepton.dark_oak_wood_slab": "Плита из древесины тёмного дуба",
@@ -49,12 +49,12 @@
 	"block.lepton.stripped_spruce_wood_slab": "Плита из обтёсанной еловой древесины",
 	"block.lepton.stripped_crimson_hyphae_slab": "Плита из обтёсанной багровой ножки",
 	"block.lepton.stripped_warped_hyphae_slab": "Плита из обтёсанной искажённой ножки",
-	
+
 	"block.lepton.cracked_stone_brick_slab": "Плита из потрескавшегося каменного кирпича",
 	"block.lepton.quartz_brick_slab": "Плита из кварцевого кирпича",
 	"block.lepton.cracked_nether_brick_slab": "Плита из потрескавшегося адского кирпича",
 	"block.lepton.cracked_polished_blackstone_brick_slab": "Плита из потрескавшихся полированных чернокаменных кирпичей",
-	
+
 	"block.lepton.acacia_wood_stairs": "Ступени из акациевой древесины",
 	"block.lepton.birch_wood_stairs": "Ступени из берёзовой древесины",
 	"block.lepton.dark_oak_wood_stairs": "Ступени из древесины тёмного дуба",
@@ -71,7 +71,7 @@
 	"block.lepton.stripped_spruce_wood_stairs": "Ступени из обтёсанной еловой древесины",
 	"block.lepton.stripped_crimson_hyphae_stairs": "Ступени из обтёсанной багровой ножки",
 	"block.lepton.stripped_warped_hyphae_stairs": "Ступени из обтёсанной искажённой ножки",
-	
+
 	"block.lepton.smooth_stone_stairs": "Гладкие каменные ступени",
 	"block.lepton.cut_sandstone_stairs": "Ступени из резного песчаника",
 	"block.lepton.cut_red_sandstone_stairs": "Ступени из резного красного песчаника",
@@ -80,7 +80,7 @@
 	"block.lepton.quartz_brick_stairs": "Ступени из кварцевого кирпича",
 	"block.lepton.cracked_nether_brick_stairs": "Ступени из потрескавшегося адского кирпича",
 	"block.lepton.cracked_polished_blackstone_brick_stairs": "Ступени из потрескашихся полированных чернокаменных кирпичей",
-	
+
 	"block.lepton.acacia_wood_wall": "Стена из акациевой древесины",
 	"block.lepton.birch_wood_wall": "Стена из берёзовой древесины",
 	"block.lepton.dark_oak_wood_wall": "Стена из древесины тёмного дуба",
@@ -97,7 +97,7 @@
 	"block.lepton.stripped_spruce_wood_wall": "Стена из обтёсанной еловой древесины",
 	"block.lepton.stripped_crimson_hyphae_wall": "Стена из обтёсанной багровой ножки",
 	"block.lepton.stripped_warped_hyphae_wall": "Стена из обтёсанной искажённой ножки",
-	
+
 	"block.lepton.purpur_wall": "Пурпурная стена",
 	"block.lepton.quartz_wall": "Кварцевая стена",
 	"block.lepton.smooth_quartz_wall": "Стена из гладкого кварца",
@@ -116,7 +116,7 @@
 	"block.lepton.quartz_brick_wall": "Стена из кварцевых кирпичей",
 	"block.lepton.cracked_nether_brick_wall": "Стена из потрескавшегося адского кирпича",
 	"block.lepton.cracked_polished_blackstone_brick_wall": "Стена из потрескавшихся полированных чернокаменных кирпичей",
-	
+
 	"block.lepton.acacia_wood_vertical_slab": "Вертикальная плита из акациевой древесины",
 	"block.lepton.birch_wood_vertical_slab": "Вертикальная плита из берёзовой древесины",
 	"block.lepton.dark_oak_wood_vertical_slab": "Вертикальная плита из древесины тёмного дуба",
@@ -125,7 +125,7 @@
 	"block.lepton.spruce_wood_vertical_slab": "Вертикальная плита из еловой древесины",
 	"block.lepton.crimson_hyphae_vertical_slab": "Вертикальная плита из багровой ножки",
 	"block.lepton.warped_hyphae_vertical_slab": "Вертикальная плита из искажённой ножки",
-	
+
 	"block.lepton.stripped_acacia_wood_vertical_slab": "Вертикальная плита из обтёсанной акациевой древесины",
 	"block.lepton.stripped_birch_wood_vertical_slab": "Вертикальная плита из обтёсанной берёзовой древесины",
 	"block.lepton.stripped_dark_oak_wood_vertical_slab": "Вертикальная плита из обтёсанной древесины тёмного дуба",
@@ -134,17 +134,17 @@
 	"block.lepton.stripped_spruce_wood_vertical_slab": "Вертикальная плита из обтёсанной еловой древесины",
 	"block.lepton.stripped_crimson_hyphae_vertical_slab": "Вертикальная плита из обтёсанной багровой ножки",
 	"block.lepton.stripped_warped_hyphae_vertical_slab": "Вертикальная плита из обтёсанной искажённой ножки",
-	
+
 	"block.lepton.cracked_stone_brick_vertical_slab": "Вертикальная плита из потрескавшегося каменного кирпича",
 	"block.lepton.quartz_brick_vertical_slab": "Вертикальная плита из кварцевого кирпича",
 	"block.lepton.cracked_nether_brick_vertical_slab": "Вертикальная плита из потрескавшегося адского кирпича",
 	"block.lepton.cracked_polished_blackstone_brick_vertical_slab": "Вертикальная плита из потрескавшихся полированных чернокаменных кирпичей",
-	
+
 	"block.lepton.biotite_brick_slab": "Плита из кирпичей биотита",
 	"block.lepton.biotite_brick_stairs": "Ступени из кирпичей биотита",
 	"block.lepton.biotite_brick_wall": "Стена из кирпичей биотита",
 	"block.lepton.biotite_brick_vertical_slab": "Вертикальная плита из кирпичей биотита",
-	
+
 	"block.lepton.midori_wall": "Стена мидори",
 	"block.lepton.biotite_wall": "Биотитовая стена",
 	"block.lepton.smooth_biotite_wall": "Стена из гладкого биотита",
@@ -157,164 +157,164 @@
 	"block.lepton.dark_elder_prismarine_wall": "Стена из древнего тёмного призмарина",
 	"block.lepton.cut_soul_sandstone_wall": "Стена из резного песчаника душ",
 	"block.lepton.smooth_soul_sandstone_wall": "Стена из гладкого песчаника душ",
-	
+
 	"block.lepton.cracked_arid_sandstone": "Потрескавшийся сухой песчаник",
 	"block.lepton.cracked_arid_sandstone_slab": "Плита из потрескавшегося сухого песчаника",
 	"block.lepton.cracked_arid_sandstone_stairs": "Ступени из потрескавшегося сухого песчаника",
 	"block.lepton.cracked_arid_sandstone_wall": "Стена из потрескавшегося сухого песчаника",
 	"block.lepton.cracked_arid_sandstone_vertical_slab": "Вертикальная плита из потрескавшегося сухого песчаника",
-	
+
 	"block.lepton.cracked_red_arid_sandstone": "Потрескавшийся красный сухой песчаник",
 	"block.lepton.cracked_red_arid_sandstone_slab": "Плита из потрескавшегося красного сухого песчаника",
 	"block.lepton.cracked_red_arid_sandstone_stairs": "Ступени из потрескавшегося красного сухого песчаника",
 	"block.lepton.cracked_red_arid_sandstone_wall": "Стена из потрескавшегося красного сухого песчаника",
 	"block.lepton.cracked_red_arid_sandstone_vertical_slab": "Вертикальная плита из потрескавшегося красного сухого песчаника",
-	
+
 	"block.lepton.cut_arid_sandstone_stairs": "Ступени из резного сухого песчаника",
 	"block.lepton.cut_red_arid_sandstone_stairs": "Ступени из резного красного сухого песчаника",
 	"block.lepton.cut_arid_sandstone_wall": "Стена из резного сухого песчаника",
 	"block.lepton.cut_red_arid_sandstone_wall": "Стена из резного красного сухого песчаника",
 	"block.lepton.smooth_arid_sandstone_wall": "Стена из гладкого сухого песчаника",
 	"block.lepton.smooth_red_arid_sandstone_wall": "Стена из гладкого красного сухого песчаника",
-	
+
 	"block.lepton.stripped_rosewood_slab": "Плита из обтёсанной палисандровой древесины",
 	"block.lepton.stripped_rosewood_stairs": "Ступени из обтёсанной палисандровой древесины",
 	"block.lepton.stripped_rosewood_wall": "Стена из обтёсанной палисандровой древесины",
 	"block.lepton.stripped_rosewood_vertical_slab": "Вертикальная плита из обтёсанной палисандровой древесины",
-	
+
 	"block.lepton.rosewood_slab": "Плита из палисандровой древесины",
 	"block.lepton.rosewood_stairs": "Ступени из палисандровой древесины",
 	"block.lepton.rosewood_wall": "Стена из палисандровой древесины",
 	"block.lepton.rosewood_vertical_slab": "Вертикальная плита из палисандровой древесины",
-	
+
 	"block.lepton.stripped_morado_wood_slab": "Плита из обтёсанной морадовой древесины",
 	"block.lepton.stripped_morado_wood_stairs": "Ступени из обтёсанной морадовой древесины",
 	"block.lepton.stripped_morado_wood_wall": "Стена из обтёсанной морадовой древесины",
 	"block.lepton.stripped_morado_wood_vertical_slab": "Вертикальная плита из обтёсанной морадовой древесины",
-	
+
 	"block.lepton.morado_wood_slab": "Плита из морадовой древесины",
 	"block.lepton.morado_wood_stairs": "Ступени из морадовой древесины",
 	"block.lepton.morado_wood_wall": "Стена из морадовой древесины",
 	"block.lepton.morado_wood_vertical_slab": "Вертикальная плита из морадовой древесины",
-	
+
 	"block.lepton.stripped_yucca_wood_slab": "Плита из обтёсанной юкковой древесины",
 	"block.lepton.stripped_yucca_wood_stairs": "Ступени из обтёсанной юкковой древесины",
 	"block.lepton.stripped_yucca_wood_wall": "Стена из обтёсанной юкковой древесины",
 	"block.lepton.stripped_yucca_wood_vertical_slab": "Вертикальная плита из обтёсанной юкковой древесины",
-	
+
 	"block.lepton.yucca_wood_slab": "Плита из юкковой древесины",
 	"block.lepton.yucca_wood_stairs": "Ступени из юкковой древесины",
 	"block.lepton.yucca_wood_wall": "Стена из юкковой древесины",
 	"block.lepton.yucca_wood_vertical_slab": "Вертикальная плита из юкковой древесины",
-	
+
 	"block.lepton.stripped_kousa_wood_slab": "Плита из обтёсанной коусовой древесины",
 	"block.lepton.stripped_kousa_wood_stairs": "Ступени из обтёсанной коусовой древесины",
 	"block.lepton.stripped_kousa_wood_wall": "Стена из обтёсанной коусовой древесины",
 	"block.lepton.stripped_kousa_wood_vertical_slab": "Вертикальная плита из обтёсанной коусовой древесины",
-	
+
 	"block.lepton.kousa_wood_slab": "Плита из коусовой древесины",
 	"block.lepton.kousa_wood_stairs": "Ступени из коусовой древесины",
 	"block.lepton.kousa_wood_wall": "Стена из коусовой древесины",
 	"block.lepton.kousa_wood_vertical_slab": "Вертикальная плита из коусовой древесины",
-	
+
 	"block.lepton.stripped_aspen_wood_slab": "Плита из обтёсанной осиновой древесины",
 	"block.lepton.stripped_aspen_wood_stairs": "Ступени из обтёсанной осиновой древесины",
 	"block.lepton.stripped_aspen_wood_wall": "Стена из обтёсанной осиновой древесины",
 	"block.lepton.stripped_aspen_wood_vertical_slab": "Вертикальная плита из обтёсанной осиновой древесины",
-	
+
 	"block.lepton.aspen_wood_slab": "Плита из осиновой древесины",
 	"block.lepton.aspen_wood_stairs": "Ступени из осиновой древесины",
 	"block.lepton.aspen_wood_wall": "Стена из осиновой древесины",
 	"block.lepton.aspen_wood_vertical_slab": "Вертикальная плита из осиновой древесины",
-	
+
 	"block.lepton.stripped_grimwood_slab": "Плита из обтёсанной древесины мрачного дерева",
 	"block.lepton.stripped_grimwood_stairs": "Ступени из обтёсанной древесины мрачного дерева",
 	"block.lepton.stripped_grimwood_wall": "Стена из обтёсанной древесины мрачного дерева",
 	"block.lepton.stripped_grimwood_vertical_slab": "Вертикальная плита из обтёсанной древесины мрачного дерева",
-	
+
 	"block.lepton.grimwood_slab": "Плита из древесины мрачного дерева",
 	"block.lepton.grimwood_stairs": "Ступени из древесины мрачного дерева",
 	"block.lepton.grimwood_wall": "Стена из древесины мрачного дерева",
 	"block.lepton.grimwood_vertical_slab": "Вертикальная плита из древесины мрачного дерева",
-	
+
 	"block.lepton.stripped_maple_wood_slab": "Плита из обтёсанной кленовой древесины",
 	"block.lepton.stripped_maple_wood_stairs": "Ступени из обтёсанной кленовой древесины",
 	"block.lepton.stripped_maple_wood_wall": "Стена из обтёсанной кленовой древесины",
 	"block.lepton.stripped_maple_wood_vertical_slab": "Вертикальная плита из обтёсанной кленовой древесины",
-	
+
 	"block.lepton.maple_wood_slab": "Плита из кленовой древесины",
 	"block.lepton.maple_wood_stairs": "Ступени из кленовой древесины",
 	"block.lepton.maple_wood_wall": "Стена из кленовой древесины",
 	"block.lepton.maple_wood_vertical_slab": "Вертикальная плита из кленовой древесины",
-	
+
 	"block.lepton.stripped_poise_wood_slab": "Плита из обтёсанного пуазового стебля",
 	"block.lepton.stripped_poise_wood_stairs": "Ступени из обтёсанного пуазового стебля",
 	"block.lepton.stripped_poise_wood_wall": "Стена из обтёсанного пуазового стебля",
 	"block.lepton.stripped_poise_wood_vertical_slab": "Вертикальная плита из обтёсанного пуазового стебля",
-	
+
 	"block.lepton.poise_wood_slab": "Плита из пуазового стебля",
 	"block.lepton.poise_wood_stairs": "Ступени из пуазового стебля",
 	"block.lepton.poise_wood_wall": "Стена из пуазового стебля",
 	"block.lepton.poise_wood_vertical_slab": "Вертикальная плита из пуазового стебля",
-	
+
 	"block.lepton.stripped_driftwood_slab": "Плита из обтёсанной плавниковой древесины",
 	"block.lepton.stripped_driftwood_stairs": "Ступени из обтёсанной плавниковой древесины",
 	"block.lepton.stripped_driftwood_wall": "Стена из обтёсанной плавниковой древесины",
 	"block.lepton.stripped_driftwood_vertical_slab": "Вертикальная плита из обтёсанной плавниковой древесины",
-	
+
 	"block.lepton.driftwood_slab": "Плита из плавниковой древесины",
 	"block.lepton.driftwood_stairs": "Ступени из плавниковой древесины",
 	"block.lepton.driftwood_wall": "Стена из плавниковой древесины",
 	"block.lepton.driftwood_vertical_slab": "Вертикальная плита из плавниковой древесины",
-	
+
 	"block.lepton.stripped_river_wood_slab": "Плита из обтёсанной древесины речного дерева",
 	"block.lepton.stripped_river_wood_stairs": "Ступени из обтёсанной древесины речного дерева",
 	"block.lepton.stripped_river_wood_wall": "Стена из обтёсанной древесины речного дерева",
 	"block.lepton.stripped_river_wood_vertical_slab": "Вертикальная плита из обтёсанной древесины речного дерева",
-	
+
 	"block.lepton.river_wood_slab": "Плита из древесины речного дерева",
 	"block.lepton.river_wood_stairs": "Ступени из древесины речного дерева",
 	"block.lepton.river_wood_wall": "Стена из древесины речного дерева",
 	"block.lepton.river_wood_vertical_slab": "Вертикальная плита из древесины речного дерева",
-	
+
 	"block.lepton.stripped_red_mushroom_hyphae_slab": "Плита из обтёсанной ножки красного гриба",
 	"block.lepton.stripped_red_mushroom_hyphae_stairs": "Ступени из обтёсанной ножки красного гриба",
 	"block.lepton.stripped_red_mushroom_hyphae_wall": "Стена из обтёсанной ножки красного гриба",
 	"block.lepton.stripped_red_mushroom_hyphae_vertical_slab": "Вертикальная плита из обтёсанной ножки красного гриба",
-	
+
 	"block.lepton.red_mushroom_hyphae_slab": "Плита из ножки красного гриба",
 	"block.lepton.red_mushroom_hyphae_stairs": "Ступени из ножки красного гриба",
 	"block.lepton.red_mushroom_hyphae_wall": "Стена из ножки красного гриба",
 	"block.lepton.red_mushroom_hyphae_vertical_slab": "Вертикальная плита из ножки красного гриба",
-	
+
 	"block.lepton.stripped_brown_mushroom_hyphae_slab": "Плита из обтёсанной ножки коричневого гриба",
 	"block.lepton.stripped_brown_mushroom_hyphae_stairs": "Ступени из обтёсанной ножки коричневого гриба",
 	"block.lepton.stripped_brown_mushroom_hyphae_wall": "Стена из обтёсанной ножки коричневого гриба",
 	"block.lepton.stripped_brown_mushroom_hyphae_vertical_slab": "Вертикальная плита из обтёсанной ножки коричневого гриба",
-	
+
 	"block.lepton.brown_mushroom_hyphae_slab": "Плита из ножки коричневого гриба",
 	"block.lepton.brown_mushroom_hyphae_stairs": "Ступени из ножки коричневого гриба",
 	"block.lepton.brown_mushroom_hyphae_wall": "Стена из ножки коричневого гриба",
 	"block.lepton.brown_mushroom_hyphae_vertical_slab": "Вертикальная плита из ножки коричневого гриба",
-	
+
 	"block.lepton.stripped_glowshroom_hyphae_slab": "Плита из обтёсанной ножки светящегося гриба",
 	"block.lepton.stripped_glowshroom_hyphae_stairs": "Ступени из обтёсанной ножки светящегося гриба",
 	"block.lepton.stripped_glowshroom_hyphae_wall": "Стена из обтёсанной ножки светящегося гриба",
 	"block.lepton.stripped_glowshroom_hyphae_vertical_slab": "Вертикальная плита из обтёсанной ножки светящегося гриба",
-	
+
 	"block.lepton.glowshroom_hyphae_slab": "Плита из ножки светящегося гриба",
 	"block.lepton.glowshroom_hyphae_stairs": "Ступени из ножки светящегося гриба",
 	"block.lepton.glowshroom_hyphae_wall": "Стена из ножки светящегося гриба",
 	"block.lepton.glowshroom_hyphae_vertical_slab": "Вертикальная плита из ножки светящегося гриба",
-	
+
 	"block.lepton.stripped_sakura_wood_slab": "Плита из обтёсанной сакуровой древесины",
 	"block.lepton.stripped_sakura_wood_stairs": "Ступени из обтёсанной сакуровой древесины",
 	"block.lepton.stripped_sakura_wood_wall": "Стена из обтёсанной сакуровой древесины",
 	"block.lepton.stripped_sakura_wood_vertical_slab": "Вертикальная плита из обтёсанной сакуровой древесины",
-	
+
 	"block.lepton.sakura_wood_slab": "Плита из сакуровой древесины",
 	"block.lepton.sakura_wood_stairs": "Ступени из сакуровой древесины",
 	"block.lepton.sakura_wood_wall": "Стена из сакуровой древесины",
 	"block.lepton.sakura_wood_vertical_slab": "Вертикальная плита из сакуровой древесины"
-	
+
 }
