@@ -1,4 +1,4 @@
-package eltrut.lepton.core.registry.items;
+package eltrut.lepton.core.registry;
 
 import com.minecraftabnormals.abnormals_core.core.util.registry.ItemSubRegistryHelper;
 

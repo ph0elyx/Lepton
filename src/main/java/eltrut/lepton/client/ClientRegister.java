@@ -1,7 +1,7 @@
 package eltrut.lepton.client;
 
 import eltrut.lepton.core.Lepton;
-import eltrut.lepton.core.registry.blocks.LeptonAuroraBlocks;
+import eltrut.lepton.core.registry.LeptonBlocks;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
@@ -18,15 +18,15 @@ public class ClientRegister {
 	@SubscribeEvent
 	public static void registerClient(final FMLClientSetupEvent event) {
 		
-		RenderTypeLookup.setRenderLayer(LeptonAuroraBlocks.GLOWSHROOM_HYPHAE_SLAB.get(), RenderType.getTranslucent());
-		RenderTypeLookup.setRenderLayer(LeptonAuroraBlocks.GLOWSHROOM_HYPHAE_STAIRS.get(), RenderType.getTranslucent());
-		RenderTypeLookup.setRenderLayer(LeptonAuroraBlocks.GLOWSHROOM_HYPHAE_WALL.get(), RenderType.getTranslucent());
-		RenderTypeLookup.setRenderLayer(LeptonAuroraBlocks.GLOWSHROOM_HYPHAE_VERTICAL_SLAB.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(LeptonBlocks.GLOWSHROOM_HYPHAE_SLAB.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(LeptonBlocks.GLOWSHROOM_HYPHAE_STAIRS.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(LeptonBlocks.GLOWSHROOM_HYPHAE_WALL.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(LeptonBlocks.GLOWSHROOM_HYPHAE_VERTICAL_SLAB.get(), RenderType.getTranslucent());
 		
-		RenderTypeLookup.setRenderLayer(LeptonAuroraBlocks.STRIPPED_GLOWSHROOM_HYPHAE_SLAB.get(), RenderType.getTranslucent());
-		RenderTypeLookup.setRenderLayer(LeptonAuroraBlocks.STRIPPED_GLOWSHROOM_HYPHAE_STAIRS.get(), RenderType.getTranslucent());
-		RenderTypeLookup.setRenderLayer(LeptonAuroraBlocks.STRIPPED_GLOWSHROOM_HYPHAE_WALL.get(), RenderType.getTranslucent());
-		RenderTypeLookup.setRenderLayer(LeptonAuroraBlocks.STRIPPED_GLOWSHROOM_HYPHAE_VERTICAL_SLAB.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(LeptonBlocks.STRIPPED_GLOWSHROOM_HYPHAE_SLAB.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(LeptonBlocks.STRIPPED_GLOWSHROOM_HYPHAE_STAIRS.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(LeptonBlocks.STRIPPED_GLOWSHROOM_HYPHAE_WALL.get(), RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(LeptonBlocks.STRIPPED_GLOWSHROOM_HYPHAE_VERTICAL_SLAB.get(), RenderType.getTranslucent());
 		
 	}
 	
