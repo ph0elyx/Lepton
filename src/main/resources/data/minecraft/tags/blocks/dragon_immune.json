@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "lepton:polished_voidstone_wall",
+	"lepton:polished_voidstone_button",
+	"lepton:polished_voidstone_pressure_plate"
+  ]
+}
