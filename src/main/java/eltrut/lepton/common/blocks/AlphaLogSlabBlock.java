@@ -21,7 +21,7 @@ public class AlphaLogSlabBlock extends LogSlabBlock implements IAlphaLog {
 	@SuppressWarnings("deprecation")
     @Override
     public boolean isSideInvisible(BlockState bs1, BlockState bs2, Direction side) {
-        return super.isSideInvisible(bs1, bs2, side) || bs2.getBlock() instanceof IAlphaLog || bs1 == bs2;
+        return super.isSideInvisible(bs1, bs2, side) || bs2.getBlock() instanceof IAlphaLog;
     }
 	
 	// Quark copy-paste for consistency

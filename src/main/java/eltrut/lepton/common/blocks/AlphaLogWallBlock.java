@@ -21,7 +21,7 @@ public class AlphaLogWallBlock extends LogWallBlock implements IAlphaLog {
 	@SuppressWarnings("deprecation")
     @Override
     public boolean isSideInvisible(BlockState bs1, BlockState bs2, Direction side) {
-        return super.isSideInvisible(bs1, bs2, side) || bs2.getBlock() instanceof IAlphaLog || bs2.getBlock() instanceof AlphaLogWallBlock || bs2.getBlock() instanceof AlphaStrippedLogWallBlock;
+        return super.isSideInvisible(bs1, bs2, side) || bs2.getBlock() instanceof IAlphaLog;
     }
 	
 	// Quark copy-paste for consistency
