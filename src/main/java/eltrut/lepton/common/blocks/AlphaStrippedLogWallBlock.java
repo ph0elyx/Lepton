@@ -16,7 +16,6 @@ public class AlphaStrippedLogWallBlock extends WallBlock {
 		super(properties);
 	}
 
-	@SuppressWarnings("deprecation")
     @Override
     public boolean isSideInvisible(BlockState bs1, BlockState bs2, Direction side) {
         return bs1 == bs2 || bs2.getBlock() instanceof AlphaLogWallBlock || bs2.getBlock() instanceof AlphaStrippedLogWallBlock;
