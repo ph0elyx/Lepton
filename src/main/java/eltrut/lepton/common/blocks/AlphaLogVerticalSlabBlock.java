@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-public class AlphaLogVerticalSlabBlock extends LogVerticalSlabBlock implements IAlphaLog {
+public class AlphaLogVerticalSlabBlock extends LogVerticalSlabBlock {
 
 	public AlphaLogVerticalSlabBlock(Supplier<Block> strippedBlock, Properties properties) {
 		super(strippedBlock, properties);
@@ -22,7 +22,7 @@ public class AlphaLogVerticalSlabBlock extends LogVerticalSlabBlock implements I
 	@SuppressWarnings("deprecation")
     @Override
     public boolean isSideInvisible(BlockState bs1, BlockState bs2, Direction side) {
-        return super.isSideInvisible(bs1, bs2, side) || bs2.getBlock() instanceof IAlphaLog;
+        return super.isSideInvisible(bs1, bs2, side) || bs2.getBlock() == this ;
     }
 	
 	// Quark copy-paste for consistency

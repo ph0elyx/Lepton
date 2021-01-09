@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-public class AlphaLogStairsBlock extends LogStairsBlock implements IAlphaLog {
+public class AlphaLogStairsBlock extends LogStairsBlock {
 
 	public AlphaLogStairsBlock(Supplier<Block> strippedBlock, BlockState state, Properties properties) {
 		super(strippedBlock, state, properties);
@@ -21,7 +21,7 @@ public class AlphaLogStairsBlock extends LogStairsBlock implements IAlphaLog {
 	@SuppressWarnings("deprecation")
     @Override
     public boolean isSideInvisible(BlockState bs1, BlockState bs2, Direction side) {
-        return super.isSideInvisible(bs1, bs2, side) || bs2.getBlock() instanceof IAlphaLog;
+        return super.isSideInvisible(bs1, bs2, side) || bs2.getBlock() == this ;
     }
 	
 	// Quark copy-paste for consistency

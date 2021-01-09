@@ -79,7 +79,7 @@ dependencies {
 	implementation fg.deobf("curse.maven:autumnity-365045:${autumnity_id}")
 	implementation fg.deobf("curse.maven:endergetic-291509:${endergetic_id}")
 	implementation fg.deobf("curse.maven:upgrade-aquatic-326895:${ua_id}")
-	implementation fg.deobf("curse.maven:enhanced-mushrooms-383725:${em_id}")
+	//implementation fg.deobf("curse.maven:enhanced-mushrooms-383725:${em_id}")
 }
 
 repositories {
