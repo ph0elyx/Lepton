@@ -1,17 +1,18 @@
 modLoader="javafml"
 loaderVersion="[34,)"
 license="CC BY-NC-SA 3.0 Unported"
-issueTrackerURL="https://github.com/EltrutLikes/Lepton/issues"
+issueTrackerURL="https://github.com/Eltrut-Co/Lepton/issues"
 [[mods]]
 modId="lepton"
 version="1.2.4"
 displayName="Lepton"
-logoFile="examplemod.png"
-credits="You for downloading it of course"
-authors="EltrutLikes"
+logoFile="lepton.png"
+credits="EltrutLikes"
+authors="Eltrut & Co."
 description='''
 Smallest things.
 '''
+
 [[dependencies.lepton]]
     modId="forge"
     mandatory=true
