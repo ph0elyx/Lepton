@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import com.minecraftabnormals.abnormals_core.core.util.registry.RegistryHelper;
 
 import eltrut.lepton.client.ColorHelper;
+import eltrut.lepton.core.other.LeptonCompat;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -45,6 +46,7 @@ public class Lepton
     }
     
     private void doClientStuff(final FMLClientSetupEvent event) {
+    	LeptonCompat.registerBlockRenderers();
     }
     
     @SuppressWarnings("deprecation")
