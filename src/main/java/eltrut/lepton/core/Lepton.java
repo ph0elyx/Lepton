@@ -46,7 +46,9 @@ public class Lepton
     }
     
     private void doClientStuff(final FMLClientSetupEvent event) {
-    	LeptonCompat.registerBlockRenderers();
+    	event.enqueueWork(() -> {
+        	LeptonCompat.registerBlockRenderers();
+    	});
     }
     
     @SuppressWarnings("deprecation")
