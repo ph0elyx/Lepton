@@ -412,6 +412,12 @@ public class LeptonBlocks {
 	public static final RegistryObject<Block> WILLOW_WOOD_WALL = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "willow_wood_wall", () -> new LogWallBlock(STRIPPED_WISTERIA_WOOD_WALL, Properties.RIVER_WOOD), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> WILLOW_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("willow_wood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_WISTERIA_WOOD_VERTICAL_SLAB, Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS, LeptonMods.ENVIRONMENTAL, LeptonMods.QUARK);
 
+	public static final RegistryObject<Block> GILDED_BLACKSTONE_SLAB = HELPER.createBlock("gilded_blackstone_slab", () -> new SlabBlock(Block.Properties.from(Blocks.GILDED_BLACKSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> GILDED_BLACKSTONE_STAIRS = HELPER.createBlock("gilded_blackstone_stairs", () -> new AbnormalsStairsBlock(Blocks.GILDED_BLACKSTONE.getDefaultState(), Block.Properties.from(Blocks.SANDSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> GILDED_BLACKSTONE_WALL = HELPER.createBlock("gilded_blackstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.GILDED_BLACKSTONE)), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> GILDED_BLACKSTONE_VERTICAL_SLAB = HELPER.createCompatBlock(LeptonMods.QUARK, "gilded_blackstone_vertical_slab", () -> new VerticalSlabBlock(Block.Properties.from(Blocks.GILDED_BLACKSTONE)), ItemGroup.BUILDING_BLOCKS);
+
+
 	public static class Properties {
 		
 		// Vanilla
