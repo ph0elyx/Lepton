@@ -348,6 +348,11 @@
 	"block.lepton.willow_wood_slab": "Willow Wood Slab",
 	"block.lepton.willow_wood_stairs": "Willow Wood Stairs",
 	"block.lepton.willow_wood_wall": "Willow Wood Wall",
-	"block.lepton.willow_wood_vertical_slab": "Willow Wood Vertical Slab"
+	"block.lepton.willow_wood_vertical_slab": "Willow Wood Vertical Slab",
+	
+	"block.lepton.gilded_blackstone_slab": "Gilded Blackstone Slab",
+	"block.lepton.gilded_blackstone_stairs": "Gilded Blackstone Stairs",
+	"block.lepton.gilded_blackstone_wall": "Gilded Blackstone Wall",
+	"block.lepton.gilded_blackstone_vertical_slab": "Gilded Blackstone Vertical Slab"
 	
 }
