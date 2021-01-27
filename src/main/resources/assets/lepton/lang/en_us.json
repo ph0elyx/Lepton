@@ -318,6 +318,36 @@
 	"block.lepton.sakura_wood_slab": "Sakura Wood Slab",
 	"block.lepton.sakura_wood_stairs": "Sakura Wood Stairs",
 	"block.lepton.sakura_wood_wall": "Sakura Wood Wall",
-	"block.lepton.sakura_wood_vertical_slab": "Sakura Wood Vertical Slab"
+	"block.lepton.sakura_wood_vertical_slab": "Sakura Wood Vertical Slab",
+	
+	"block.lepton.stripped_wisteria_wood_slab": "Stripped Wisteria Wood Slab",
+	"block.lepton.stripped_wisteria_wood_stairs": "Stripped Wisteria Wood Stairs",
+	"block.lepton.stripped_wisteria_wood_wall": "Stripped Wisteria Wood Wall",
+	"block.lepton.stripped_wisteria_wood_vertical_slab": "Stripped Wisteria Wood Vertical Slab",
+	
+	"block.lepton.wisteria_wood_slab": "Wisteria Wood Slab",
+	"block.lepton.wisteria_wood_stairs": "Wisteria Wood Stairs",
+	"block.lepton.wisteria_wood_wall": "Wisteria Wood Wall",
+	"block.lepton.wisteria_wood_vertical_slab": "Wisteria Wood Vertical Slab",
+	
+	"block.lepton.stripped_cherry_wood_slab": "Stripped Cherry Wood Slab",
+	"block.lepton.stripped_cherry_wood_stairs": "Stripped Cherry Wood Stairs",
+	"block.lepton.stripped_cherry_wood_wall": "Stripped Cherry Wood Wall",
+	"block.lepton.stripped_cherry_wood_vertical_slab": "Stripped Cherry Wood Vertical Slab",
+	
+	"block.lepton.cherry_wood_slab": "Cherry Wood Slab",
+	"block.lepton.cherry_wood_stairs": "Cherry Wood Stairs",
+	"block.lepton.cherry_wood_wall": "Cherry Wood Wall",
+	"block.lepton.cherry_wood_vertical_slab": "Cherry Wood Vertical Slab",
+	
+	"block.lepton.stripped_willow_wood_slab": "Stripped Willow Wood Slab",
+	"block.lepton.stripped_willow_wood_stairs": "Stripped Willow Wood Stairs",
+	"block.lepton.stripped_willow_wood_wall": "Stripped Willow Wood Wall",
+	"block.lepton.stripped_willow_wood_vertical_slab": "Stripped Willow Wood Vertical Slab",
+	
+	"block.lepton.willow_wood_slab": "Willow Wood Slab",
+	"block.lepton.willow_wood_stairs": "Willow Wood Stairs",
+	"block.lepton.willow_wood_wall": "Willow Wood Wall",
+	"block.lepton.willow_wood_vertical_slab": "Willow Wood Vertical Slab"
 	
 }
