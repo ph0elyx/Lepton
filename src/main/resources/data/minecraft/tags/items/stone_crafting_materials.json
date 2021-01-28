@@ -1,0 +1,18 @@
+{
+	"replace": "false",
+	"values": [
+		"minecraft:andesite",
+		"minecraft:diorite",
+		"minecraft:granite"
+	],
+	"optional": [
+		"quark:marble",
+		"quark:slate",
+		"quark:jasper",
+		"quark:limestone",
+		"quark:basalt",
+		"quark:myalite",
+		"quark:permafrost",
+		"quark:brimstone"
+	]
+}
