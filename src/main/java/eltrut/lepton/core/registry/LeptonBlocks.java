@@ -380,7 +380,44 @@ public class LeptonBlocks {
 	public static final RegistryObject<Block> GLOWSHROOM_HYPHAE_STAIRS = HELPER.createCompatBlock(LeptonMods.ENHANCED_MUSHROOMS, "glowshroom_hyphae_stairs", () -> new AlphaLogStairsBlock(STRIPPED_GLOWSHROOM_HYPHAE_STAIRS, Blocks.OAK_WOOD.getDefaultState(), Properties.GLOWSHROOM_HYPHAE), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> GLOWSHROOM_HYPHAE_WALL = HELPER.createCompatBlock(LeptonMods.ENHANCED_MUSHROOMS, "glowshroom_hyphae_wall", () -> new AlphaLogWallBlock(STRIPPED_GLOWSHROOM_HYPHAE_WALL, Properties.GLOWSHROOM_HYPHAE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> GLOWSHROOM_HYPHAE_VERTICAL_SLAB = HELPER.createCompatBlock("glowshroom_hyphae_vertical_slab", () -> new AlphaLogVerticalSlabBlock(STRIPPED_GLOWSHROOM_HYPHAE_VERTICAL_SLAB, Properties.GLOWSHROOM_HYPHAE), ItemGroup.BUILDING_BLOCKS, LeptonMods.ENHANCED_MUSHROOMS, LeptonMods.QUARK);
-	
+
+	//Environmental
+	public static final RegistryObject<Block> STRIPPED_WISTERIA_WOOD_SLAB = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_wisteria_wood_slab", () -> new SlabBlock(Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_WISTERIA_WOOD_STAIRS = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_wisteria_wood_stairs", () -> new AbnormalsStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_WISTERIA_WOOD_WALL = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_wisteria_wood_wall", () -> new WallBlock(Properties.RIVER_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> STRIPPED_WISTERIA_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("stripped_wisteria_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS, LeptonMods.ENVIRONMENTAL, LeptonMods.QUARK);
+
+	public static final RegistryObject<Block> WISTERIA_WOOD_SLAB = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "wisteria_wood_slab", () -> new LogSlabBlock(STRIPPED_WISTERIA_WOOD_SLAB, Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> WISTERIA_WOOD_STAIRS = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "wisteria_wood_stairs", () -> new LogStairsBlock(STRIPPED_WISTERIA_WOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> WISTERIA_WOOD_WALL = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "wisteria_wood_wall", () -> new LogWallBlock(STRIPPED_WISTERIA_WOOD_WALL, Properties.RIVER_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> WISTERIA_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("wisteria_wood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_WISTERIA_WOOD_VERTICAL_SLAB, Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS, LeptonMods.ENVIRONMENTAL, LeptonMods.QUARK);
+
+	public static final RegistryObject<Block> STRIPPED_CHERRY_WOOD_SLAB = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_cherry_wood_slab", () -> new SlabBlock(Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_CHERRY_WOOD_STAIRS = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_cherry_wood_stairs", () -> new AbnormalsStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_CHERRY_WOOD_WALL = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_cherry_wood_wall", () -> new WallBlock(Properties.RIVER_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> STRIPPED_CHERRY_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("stripped_cherry_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS, LeptonMods.ENVIRONMENTAL, LeptonMods.QUARK);
+
+	public static final RegistryObject<Block> CHERRY_WOOD_SLAB = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "cherry_wood_slab", () -> new LogSlabBlock(STRIPPED_WISTERIA_WOOD_SLAB, Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CHERRY_WOOD_STAIRS = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "cherry_wood_stairs", () -> new LogStairsBlock(STRIPPED_WISTERIA_WOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CHERRY_WOOD_WALL = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "cherry_wood_wall", () -> new LogWallBlock(STRIPPED_WISTERIA_WOOD_WALL, Properties.RIVER_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> CHERRY_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("cherry_wood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_WISTERIA_WOOD_VERTICAL_SLAB, Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS, LeptonMods.ENVIRONMENTAL, LeptonMods.QUARK);
+
+	public static final RegistryObject<Block> STRIPPED_WILLOW_WOOD_SLAB = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_willow_wood_slab", () -> new SlabBlock(Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_WILLOW_WOOD_STAIRS = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_willow_wood_stairs", () -> new AbnormalsStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> STRIPPED_WILLOW_WOOD_WALL = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_willow_wood_wall", () -> new WallBlock(Properties.RIVER_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> STRIPPED_WILLOW_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("stripped_willow_wood_vertical_slab", () -> new VerticalSlabBlock(Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS, LeptonMods.ENVIRONMENTAL, LeptonMods.QUARK);
+
+	public static final RegistryObject<Block> WILLOW_WOOD_SLAB = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "willow_wood_slab", () -> new LogSlabBlock(STRIPPED_WISTERIA_WOOD_SLAB, Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> WILLOW_WOOD_STAIRS = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "willow_wood_stairs", () -> new LogStairsBlock(STRIPPED_WISTERIA_WOOD_STAIRS, Blocks.OAK_WOOD.getDefaultState(), Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> WILLOW_WOOD_WALL = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "willow_wood_wall", () -> new LogWallBlock(STRIPPED_WISTERIA_WOOD_WALL, Properties.RIVER_WOOD), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> WILLOW_WOOD_VERTICAL_SLAB = HELPER.createCompatBlock("willow_wood_vertical_slab", () -> new LogVerticalSlabBlock(STRIPPED_WISTERIA_WOOD_VERTICAL_SLAB, Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS, LeptonMods.ENVIRONMENTAL, LeptonMods.QUARK);
+
+	public static final RegistryObject<Block> GILDED_BLACKSTONE_SLAB = HELPER.createBlock("gilded_blackstone_slab", () -> new SlabBlock(Block.Properties.from(Blocks.GILDED_BLACKSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> GILDED_BLACKSTONE_STAIRS = HELPER.createBlock("gilded_blackstone_stairs", () -> new AbnormalsStairsBlock(Blocks.GILDED_BLACKSTONE.getDefaultState(), Block.Properties.from(Blocks.GILDED_BLACKSTONE)), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> GILDED_BLACKSTONE_WALL = HELPER.createBlock("gilded_blackstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.GILDED_BLACKSTONE)), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> GILDED_BLACKSTONE_VERTICAL_SLAB = HELPER.createCompatBlock(LeptonMods.QUARK, "gilded_blackstone_vertical_slab", () -> new VerticalSlabBlock(Block.Properties.from(Blocks.GILDED_BLACKSTONE)), ItemGroup.BUILDING_BLOCKS);
+
+
 	public static class Properties {
 		
 		// Vanilla
