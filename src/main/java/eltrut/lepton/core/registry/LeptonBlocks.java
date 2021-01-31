@@ -381,7 +381,7 @@ public class LeptonBlocks {
 	public static final RegistryObject<Block> GLOWSHROOM_HYPHAE_WALL = HELPER.createCompatBlock(LeptonMods.ENHANCED_MUSHROOMS, "glowshroom_hyphae_wall", () -> new AlphaLogWallBlock(STRIPPED_GLOWSHROOM_HYPHAE_WALL, Properties.GLOWSHROOM_HYPHAE), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> GLOWSHROOM_HYPHAE_VERTICAL_SLAB = HELPER.createCompatBlock("glowshroom_hyphae_vertical_slab", () -> new AlphaLogVerticalSlabBlock(STRIPPED_GLOWSHROOM_HYPHAE_VERTICAL_SLAB, Properties.GLOWSHROOM_HYPHAE), ItemGroup.BUILDING_BLOCKS, LeptonMods.ENHANCED_MUSHROOMS, LeptonMods.QUARK);
 
-	//Environmental
+	// Environmental
 	public static final RegistryObject<Block> STRIPPED_WISTERIA_WOOD_SLAB = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_wisteria_wood_slab", () -> new SlabBlock(Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> STRIPPED_WISTERIA_WOOD_STAIRS = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_wisteria_wood_stairs", () -> new AbnormalsStairsBlock(Blocks.STRIPPED_OAK_WOOD.getDefaultState(), Properties.RIVER_WOOD), ItemGroup.BUILDING_BLOCKS);
 	public static final RegistryObject<Block> STRIPPED_WISTERIA_WOOD_WALL = HELPER.createCompatBlock(LeptonMods.ENVIRONMENTAL, "stripped_wisteria_wood_wall", () -> new WallBlock(Properties.RIVER_WOOD), ItemGroup.DECORATIONS);
@@ -417,7 +417,20 @@ public class LeptonBlocks {
 	public static final RegistryObject<Block> GILDED_BLACKSTONE_WALL = HELPER.createBlock("gilded_blackstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.GILDED_BLACKSTONE)), ItemGroup.DECORATIONS);
 	public static final RegistryObject<Block> GILDED_BLACKSTONE_VERTICAL_SLAB = HELPER.createCompatBlock(LeptonMods.QUARK, "gilded_blackstone_vertical_slab", () -> new VerticalSlabBlock(Block.Properties.from(Blocks.GILDED_BLACKSTONE)), ItemGroup.BUILDING_BLOCKS);
 
-
+	// Infernal Expansion
+	public static final RegistryObject<Block> CRACKED_GLOWDUST_SANDSTONE = HELPER.createCompatBlock(LeptonMods.INFERNAL_EXPANSION, "cracked_glowdust_sandstone", () -> new Block(Block.Properties.from(Blocks.SANDSTONE).setLightLevel(value -> 8)), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CRACKED_GLOWDUST_SANDSTONE_SLAB = HELPER.createCompatBlock(LeptonMods.INFERNAL_EXPANSION, "cracked_glowdust_sandstone_slab", () -> new SlabBlock(Block.Properties.from(Blocks.SANDSTONE).setLightLevel(value -> 8)), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CRACKED_GLOWDUST_SANDSTONE_STAIRS = HELPER.createCompatBlock(LeptonMods.INFERNAL_EXPANSION, "cracked_glowdust_sandstone_stairs", () -> new AbnormalsStairsBlock(Blocks.SANDSTONE.getDefaultState(), Block.Properties.from(Blocks.SANDSTONE).setLightLevel(value -> 8)), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CRACKED_GLOWDUST_SANDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.INFERNAL_EXPANSION, "cracked_glowdust_sandstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.SANDSTONE).setLightLevel(value -> 8)), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> CRACKED_GLOWDUST_SANDSTONE_VERTICAL_SLAB = HELPER.createCompatBlock("cracked_glowdust_sandstone_vertical_slab", () -> new VerticalSlabBlock(Block.Properties.from(Blocks.SANDSTONE).setLightLevel(value -> 8)), ItemGroup.BUILDING_BLOCKS, LeptonMods.INFERNAL_EXPANSION, LeptonMods.QUARK);
+	
+	public static final RegistryObject<Block> CUT_GLOWDUST_SANDSTONE_STAIRS = HELPER.createCompatBlock(LeptonMods.INFERNAL_EXPANSION, "cut_glowdust_sandstone_stairs", () -> new AbnormalsStairsBlock(Blocks.SANDSTONE.getDefaultState(), Block.Properties.from(Blocks.SANDSTONE).setLightLevel(value -> 8)), ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Block> CUT_GLOWDUST_SANDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.INFERNAL_EXPANSION, "cut_glowdust_sandstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.SANDSTONE).setLightLevel(value -> 8)), ItemGroup.DECORATIONS);
+	public static final RegistryObject<Block> SMOOTH_GLOWDUST_SANDSTONE_WALL = HELPER.createCompatBlock(LeptonMods.INFERNAL_EXPANSION, "smooth_glowdust_sandstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.SANDSTONE).setLightLevel(value -> 8)), ItemGroup.DECORATIONS);
+	
+	// Outer End
+	public static final RegistryObject<Block> HIMMEL_WALL = HELPER.createCompatBlock(LeptonMods.OUTER_END, "himmel_wall", () -> new WallBlock(Block.Properties.from(Blocks.PURPUR_BLOCK)), ItemGroup.DECORATIONS);
+	
 	public static class Properties {
 		
 		// Vanilla
@@ -454,8 +467,8 @@ public class LeptonBlocks {
 		public static final Block.Properties RIVER_WOOD = Block.Properties.create(Material.WOOD, MaterialColor.BROWN).sound(SoundType.WOOD).hardnessAndResistance(2);
 		
 		// Aurora
-		public static final Block.Properties STRIPPED_GLOWSHROOM_HYPHAE = Block.Properties.from(Blocks.STRIPPED_OAK_WOOD).notSolid().setLightLevel((a) -> {return 14;});
-		public static final Block.Properties GLOWSHROOM_HYPHAE = Block.Properties.from(Blocks.OAK_WOOD).notSolid().setLightLevel((a) -> {return 14;});		
+		public static final Block.Properties STRIPPED_GLOWSHROOM_HYPHAE = Block.Properties.from(Blocks.STRIPPED_OAK_WOOD).notSolid().setLightLevel(value -> 14);
+		public static final Block.Properties GLOWSHROOM_HYPHAE = Block.Properties.from(Blocks.OAK_WOOD).notSolid().setLightLevel(value -> 14);		
 		
 	}
 	

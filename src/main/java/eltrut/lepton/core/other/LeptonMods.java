@@ -9,4 +9,6 @@ public class LeptonMods {
 	public static final String ENHANCED_MUSHROOMS = "enhanced_mushrooms";
 	public static final String HANAMI = "hanami";
 	public static final String ENVIRONMENTAL = "environmental";
+	public static final String INFERNAL_EXPANSION = "infernalexp";
+	public static final String OUTER_END = "outer_end";
 }
