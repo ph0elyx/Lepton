@@ -53,6 +53,13 @@
 		"lepton:brown_mushroom_hyphae_slab",
 		"lepton:stripped_glowshroom_hyphae_slab",
 		"lepton:glowshroom_hyphae_slab",
+		"lepton:stripped_wisteria_wood_slab",
+		"lepton:wisteria_wood_slab",
+		"lepton:stripped_cherry_wood_slab",
+		"lepton:cherry_wood_slab",
+		"lepton:stripped_willow_wood_slab",
+		"lepton:willow_wood_slab",
+		"lepton:gilded_blackstone_slab",
 		"lepton:cracked_glowdust_sandstone_slab"
 	]
 }
