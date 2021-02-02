@@ -58,6 +58,8 @@
 		"lepton:stripped_brown_mushroom_hyphae_stairs",
 		"lepton:brown_mushroom_hyphae_stairs",
 		"lepton:stripped_glowshroom_hyphae_stairs",
-		"lepton:glowshroom_hyphae_stairs"
+		"lepton:glowshroom_hyphae_stairs",
+		"lepton:cracked_glowdust_sandstone_stairs",
+		"lepton:cut_glowdust_sandstone_stairs"
 	]
 }
