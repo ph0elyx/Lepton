@@ -353,6 +353,18 @@
 	"block.lepton.gilded_blackstone_slab": "Gilded Blackstone Slab",
 	"block.lepton.gilded_blackstone_stairs": "Gilded Blackstone Stairs",
 	"block.lepton.gilded_blackstone_wall": "Gilded Blackstone Wall",
-	"block.lepton.gilded_blackstone_vertical_slab": "Gilded Blackstone Vertical Slab"
+	"block.lepton.gilded_blackstone_vertical_slab": "Gilded Blackstone Vertical Slab",
+	
+	"block.lepton.cracked_glowdust_sandstone": "Cracked Glowdust Sandstone",
+	"block.lepton.cracked_glowdust_sandstone_slab": "Cracked Glowdust Sandstone Slab",
+	"block.lepton.cracked_glowdust_sandstone_stairs": "Cracked Glowdust Sandstone Stairs",
+	"block.lepton.cracked_glowdust_sandstone_wall": "Cracked Glowdust Sandstone Wall",
+	"block.lepton.cracked_glowdust_sandstone_vertical_slab": "Cracked Glowdust Sandstone Vertical Slab",
+	
+	"block.lepton.cut_glowdust_sandstone_stairs": "Cut Glowdust Sandstone Stairs",
+	"block.lepton.cut_glowdust_sandstone_wall": "Cut Glowdust Sandstone Wall",
+	"block.lepton.smooth_glowdust_sandstone_wall": "Smooth Glowdust Sandstone Wall",
+	
+	"block.lepton.himmel_wall": "Himmel Wall"
 	
 }

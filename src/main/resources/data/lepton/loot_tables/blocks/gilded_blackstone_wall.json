@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "minecraft:gilded_blackstone_wall"
+              "name": "lepton:gilded_blackstone_wall"
             },
             {
               "type": "minecraft:alternatives",
@@ -62,7 +62,7 @@
                 },
                 {
                   "type": "minecraft:item",
-                  "name": "minecraft:gilded_blackstone_wall"
+                  "name": "lepton:gilded_blackstone_wall"
                 }
               ]
             }
