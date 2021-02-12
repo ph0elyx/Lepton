@@ -11,4 +11,6 @@ public class LeptonMods {
 	public static final String ENVIRONMENTAL = "environmental";
 	public static final String INFERNAL_EXPANSION = "infernalexp";
 	public static final String OUTER_END = "outer_end";
+	public static final String ABUNDANCE = "abundance";
+	public static final String BAYOU_BLUES = "bayou_blues";
 }
