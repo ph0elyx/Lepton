@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "lepton:cracked_sandstone",
-	"lepton:cracked_red_sandstone"
+	"lepton:cracked_red_sandstone",
+	"lepton:cracked_arid_sandstone",
+	"lepton:cracked_red_arid_sandstone",
+	"lepton:cracked_glowdust_sandstone"
   ]
 }

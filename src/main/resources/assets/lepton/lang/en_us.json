@@ -365,6 +365,35 @@
 	"block.lepton.cut_glowdust_sandstone_wall": "Cut Glowdust Sandstone Wall",
 	"block.lepton.smooth_glowdust_sandstone_wall": "Smooth Glowdust Sandstone Wall",
 	
-	"block.lepton.himmel_wall": "Himmel Wall"
+	"block.lepton.himmel_wall": "Himmel Wall",
 	
+	"block.lepton.stripped_jacaranda_wood_slab": "Stripped Jacaranda Wood Slab",
+	"block.lepton.stripped_jacaranda_wood_stairs": "Stripped Jacaranda Wood Stairs",
+	"block.lepton.stripped_jacaranda_wood_wall": "Stripped Jacaranda Wood Wall",
+	"block.lepton.stripped_jacaranda_wood_vertical_slab": "Stripped Jacaranda Wood Vertical Slab",
+	
+	"block.lepton.jacaranda_wood_slab": "Jacaranda Wood Slab",
+	"block.lepton.jacaranda_wood_stairs": "Jacaranda Wood Stairs",
+	"block.lepton.jacaranda_wood_wall": "Jacaranda Wood Wall",
+	"block.lepton.jacaranda_wood_vertical_slab": "Jacaranda Wood Vertical Slab",
+	
+	"block.lepton.stripped_redbud_wood_slab": "Stripped Redbud Wood Slab",
+	"block.lepton.stripped_redbud_wood_stairs": "Stripped Redbud Wood Stairs",
+	"block.lepton.stripped_redbud_wood_wall": "Stripped Redbud Wood Wall",
+	"block.lepton.stripped_redbud_wood_vertical_slab": "Stripped Redbud Wood Vertical Slab",
+	
+	"block.lepton.redbud_wood_slab": "Redbud Wood Slab",
+	"block.lepton.redbud_wood_stairs": "Redbud Wood Stairs",
+	"block.lepton.redbud_wood_wall": "Redbud Wood Wall",
+	"block.lepton.redbud_wood_vertical_slab": "Redbud Wood Vertical Slab",
+	
+	"block.lepton.stripped_cypress_wood_slab": "Stripped Cypress Wood Slab",
+	"block.lepton.stripped_cypress_wood_stairs": "Stripped Cypress Wood Stairs",
+	"block.lepton.stripped_cypress_wood_wall": "Stripped Cypress Wood Wall",
+	"block.lepton.stripped_cypress_wood_vertical_slab": "Stripped Cypress Wood Vertical Slab",
+	
+	"block.lepton.cypress_wood_slab": "Cypress Wood Slab",
+	"block.lepton.cypress_wood_stairs": "Cypress Wood Stairs",
+	"block.lepton.cypress_wood_wall": "Cypress Wood Wall",
+	"block.lepton.cypress_wood_vertical_slab": "Cypress Wood Vertical Slab"
 }
