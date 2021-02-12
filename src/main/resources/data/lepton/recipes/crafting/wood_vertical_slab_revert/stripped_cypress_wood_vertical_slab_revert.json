@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wood_vertical_slab_revert",
+  "ingredients": [
+    {
+      "item": "lepton:stripped_cypress_wood_vertical_slab"
+    }
+  ],
+  "result": {
+    "item": "lepton:stripped_cypress_wood_slab",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "bayou_blues"
+    },
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_slabs"
+    }
+  ]
+}
