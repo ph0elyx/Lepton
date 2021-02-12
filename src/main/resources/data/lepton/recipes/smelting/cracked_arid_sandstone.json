@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "atmospheric:arid_sandstone"
+    "item": "atmospheric:smooth_arid_sandstone"
   },
   "result": "lepton:cracked_arid_sandstone",
   "experience": 0.1,

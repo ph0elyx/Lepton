@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "infernalexp:glowdust_sandstone"
+    "item": "infernalexp:smooth_glowdust_sandstone"
   },
   "result": "lepton:cracked_glowdust_sandstone",
   "experience": 0.1,

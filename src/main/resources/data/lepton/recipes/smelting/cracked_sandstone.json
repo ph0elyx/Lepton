@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "minecraft:sandstone"
+    "item": "minecraft:smooth_sandstone"
   },
   "result": "lepton:cracked_sandstone",
   "experience": 0.1,
